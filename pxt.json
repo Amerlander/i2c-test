@@ -6,7 +6,9 @@
         "core": "*",
         "bit": "github:calliope-net/bit",
         "i2c": "github:calliope-net/i2c",
-        "dip-switch": "github:calliope-net/dip-switch"
+        "dip-switch": "github:calliope-net/dip-switch",
+        "lcd16x2rgb": "github:calliope-net/lcd16x2rgb",
+        "rtc-pcf85063tp": "github:calliope-net/rtc-pcf85063tp"
     },
     "files": [
         "README.md",
