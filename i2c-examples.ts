@@ -1,5 +1,5 @@
 
-//% color=#3F3FFF icon="\uf1ac" block="i2c Beispiele" weight=19
+//% color=#3F3FFF icon="\uf1e6" block="i2c Beispiele" weight=19
 namespace i2cexamples
 /* 230804
 Calliope i2c Beispiele, die mehrere i2c Module gleichzeitig nutzen. Lädt alle i2cErweiterungen.
