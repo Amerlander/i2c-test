@@ -14,7 +14,8 @@
     "files": [
         "README.md",
         "main.blocks",
-        "main.ts"
+        "main.ts",
+        "i2c-examples.ts"
     ],
     "testFiles": [
         "test.ts"
