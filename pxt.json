@@ -5,7 +5,8 @@
     "dependencies": {
         "core": "*",
         "bit": "github:calliope-net/bit",
-        "i2c": "github:calliope-net/i2c"
+        "i2c": "github:calliope-net/i2c",
+        "dip-switch": "github:calliope-net/dip-switch"
     },
     "files": [
         "README.md",
