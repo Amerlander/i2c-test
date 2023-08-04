@@ -4,8 +4,8 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "bit": "github:calliope-net/bit",
+        "i2c": "github:calliope-net/i2c"
     },
     "files": [
         "README.md",
@@ -17,11 +17,12 @@
     ],
     "public": true,
     "targetVersions": {
-        "target": "6.0.17",
-        "targetId": "microbit"
+        "target": "4.0.35",
+        "targetId": "calliopemini"
     },
     "supportedTargets": [
+        "calliopemini",
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
