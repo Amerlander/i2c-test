@@ -4,7 +4,7 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "bit": "github:calliope-net/bit",
+        "bit": "github:calliope-net/bit#d4ed9f6ccd53e80a29330a6ae3050eb41076908b",
         "i2c": "github:calliope-net/i2c",
         "dip-switch": "github:calliope-net/dip-switch",
         "lcd16x2rgb": "github:calliope-net/lcd16x2rgb",
