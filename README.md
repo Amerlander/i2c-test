@@ -21,7 +21,7 @@ Um dieses Repository in MakeCode zu importieren.
   * Inhalt der Zeile: Dateiname; Datum; Zeit; DIP-Schalter binär; Temperatur; DrehungX; DrehungY; HardwareInterrupt; RGB
   * aktueller Dateiname und Zeit (aller 10 Sekunden wenn Zeile geschrieben) wird auf LCD Diaplay angezeigt
   * schreiben auf Speicherkarte kann zum Langzeit-Test der i2c Funktion genutzt werden
-* Schalter 2 ON 3 OFF: LED-Matrix zeigt binär Uhrzeit (Stunde, Minute 10^1, Minute 10^0, Sekunde 10^1, Sekunde 10^0)
+* Schalter 2 ON 3 OFF: LED-Matrix zeigt binär (in 5 Spalten) Uhrzeit (Stunde, Minute 10^1, Minute 10^0, Sekunde 10^1, Sekunde 10^0)
 * Schalter 2 ON 3 ON: LED-Matrix zeigt binär Datum (Tag, -, Monat, -, Jahr)
 * Schalter 2 OFF 3 ON: LED-Matrix löschen
 * Schalter 4-5-6: Hintergrundfarbe, wenn ein Display mit 'Backlight' angeschlossen ist
@@ -34,6 +34,14 @@ Um dieses Repository in MakeCode zu importieren.
 
 > Auf dem LCD Display haben verschiedene Funktionen einen eigenen Bereich, ohne sich zu überschreiben.
 
+#### im Projekt i2c-test sind auch noch fertige Blöcke unter 'i2c Beispiele'
+
+* braucht Erweiterungen LCD + LOG
+  * leere LOG Dateien 'LOG00*.TXT' löschen und Protokoll-Datei schreiben, LCD Anzeige
+  * Sonderzeichen in Datei 'UMLAUTE.TXT' schreiben und wieder lesen, LCD Anzeige
+* braucht Erweiterungen LCD + RTC + LOG
+  * Zeile auf Speicherkarte schreiben mit Datum und Zeit, Dateiname yyMMddHH.CSV (pro Stunde eine neue Datei), LCD Anzeige
+
 #### 6 Erweiterungen werden automatisch mit geladen
 
 * https://github.com/calliope-net/bit
@@ -43,6 +51,7 @@ Um dieses Repository in MakeCode zu importieren.
 * https://github.com/calliope-net/log-qwiicopenlog
 * https://github.com/calliope-net/rtc-pcf85063tp
 
+![](blocks.png)
 
 #### Metadaten (verwendet für Suche, Rendering)
 
