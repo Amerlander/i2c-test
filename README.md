@@ -55,6 +55,12 @@ im Projekt **calliope-net/i2c-test** sind auch noch fertige Blöcke unter **i2c 
 
 ![](blocks.png)
 
+> Für eigene Entwicklungen, oder wenn i2c Module fehlen, können nicht benötigte Erweiterungen gelöscht werden.
+> Dazu in der **JavaScript** Ansicht links unter dem Simulator im schwarzen Explorer auf den Mülleimer klicken.
+> Mit dem Pfeil-Symbol kann die Erweiterung aktualisiert werden, wenn es ein Update gab.
+
+![](explorer.png)
+
 #### Metadaten (verwendet für Suche, Rendering)
 
 * Calliope mini
