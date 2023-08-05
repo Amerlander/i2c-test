@@ -1,10 +1,11 @@
 
 //% color=#3F3FFF icon="\uf1e6" block="i2c Beispiele" weight=19
 namespace i2cexamples
-/* 230804
+/* 230805
 Calliope i2c Beispiele, die mehrere i2c Module gleichzeitig nutzen. Lädt alle i2cErweiterungen.
 optimiert und getestet für die gleichzeitige Nutzung mehrerer i2c Module am Calliope mini
 
+[Dokumentation] https://calliope-net.github.io/i2c-test/
 
 Code zum testen der i2c Erweiterungen neu programmiert von Lutz Elßner im August 2023
 */ {
@@ -91,10 +92,10 @@ Code zum testen der i2c Erweiterungen neu programmiert von Lutz Elßner im Augus
 
 
 
-    // ========== group="i2c LCD RTC LOG dauerhaft protokollieren mit Datum und Zeit"
+    // ========== group="i2c LCD RTC LOG Zeile auf Speicherkarte schreiben (Datum, Zeit, Licht, °C), LCD Anzeige"
 
-    //% group="i2c LCD RTC LOG dauerhaft protokollieren mit Datum und Zeit"
-    //% block="i2c %pLCD %pRTC %pLOG dauerhaft protokollieren mit Datum und Zeit"
+    //% group="i2c LCD RTC LOG Zeile auf Speicherkarte schreiben (Datum, Zeit, Licht, °C), LCD Anzeige"
+    //% block="i2c %pLCD %pRTC %pLOG Zeile auf Speicherkarte protokollieren"
     export function foreverDateLog(pLCD: lcd16x2rgb.eADDR_LCD, pRTC: rtcpcf85063tp.eADDR, pLOG: qwiicopenlog.eADDR) {
         rtcpcf85063tp.readDateTime(pRTC)
         let sName = rtcpcf85063tp.getyyMMddHHmmss(0, 8) + ".LOG"
