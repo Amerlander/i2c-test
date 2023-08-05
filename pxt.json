@@ -1,5 +1,5 @@
 {
-    "name": "i2c-test",
+    "name": "i2c-test #2",
     "version": "0.0.0",
     "description": "",
     "dependencies": {
@@ -29,5 +29,5 @@
         "calliopemini",
         "microbit"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }
