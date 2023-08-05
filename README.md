@@ -11,7 +11,8 @@ Um dieses Repository in MakeCode zu importieren.
 
 * öffne [https://makecode.calliope.cc](https://makecode.calliope.cc/)
 * klicke auf **Importieren** und dann auf **Importiere URL**
-* füge **https://github.com/calliope-net/i2c-test** ein und klicke auf Importieren
+* füge folgende **URL des Projekts** ein und klicke auf **Los geht's!**
+* **https://github.com/calliope-net/i2c-test**
 
 #### mit dem DIP Schalter wird eingestellt:
 
@@ -35,7 +36,7 @@ Um dieses Repository in MakeCode zu importieren.
 
 > Auf dem LCD Display haben verschiedene Funktionen einen eigenen Bereich, ohne sich zu überschreiben.
 
-#### im Projekt i2c-test sind auch noch fertige Blöcke unter 'i2c Beispiele'
+im Projekt **calliope-net/i2c-test** sind auch noch fertige Blöcke unter **i2c Beispiele**
 
 * braucht Erweiterungen LCD + LOG
   * leere LOG Dateien 'LOG00*.TXT' löschen und Protokoll-Datei schreiben, LCD Anzeige
