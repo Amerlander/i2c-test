@@ -9,7 +9,7 @@
         "lcd16x2rgb": "github:calliope-net/lcd16x2rgb#47e5ba862c3b2a08a88788449a472b3f8b1e2064",
         "rtc-pcf85063tp": "github:calliope-net/rtc-pcf85063tp#5fc6ab714c2bc47a65eb46cabda19861772f83a1",
         "log-qwiicopenlog": "github:calliope-net/log-qwiicopenlog#b15fa841eb1b4e513ea864e3fb8f6c073e15e38b",
-        "bit": "github:calliope-net/bit"
+        "bit": "github:calliope-net/bit#d4ed9f6ccd53e80a29330a6ae3050eb41076908b"
     },
     "files": [
         "README.md",
