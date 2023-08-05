@@ -4,12 +4,11 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "bit": "github:calliope-net/bit#d4ed9f6ccd53e80a29330a6ae3050eb41076908b",
-        "i2c": "github:calliope-net/i2c",
-        "dip-switch": "github:calliope-net/dip-switch",
-        "lcd16x2rgb": "github:calliope-net/lcd16x2rgb",
-        "rtc-pcf85063tp": "github:calliope-net/rtc-pcf85063tp",
-        "log-qwiicopenlog": "github:calliope-net/log-qwiicopenlog"
+        "i2c": "github:calliope-net/i2c#03669f0406d515bdf4c9b04d3d6c65cc3f004f9d",
+        "dip-switch": "github:calliope-net/dip-switch#829b75a9cc65df4caa8433431a3da148310820f1",
+        "lcd16x2rgb": "github:calliope-net/lcd16x2rgb#47e5ba862c3b2a08a88788449a472b3f8b1e2064",
+        "rtc-pcf85063tp": "github:calliope-net/rtc-pcf85063tp#5fc6ab714c2bc47a65eb46cabda19861772f83a1",
+        "log-qwiicopenlog": "github:calliope-net/log-qwiicopenlog#b15fa841eb1b4e513ea864e3fb8f6c073e15e38b"
     },
     "files": [
         "README.md",
