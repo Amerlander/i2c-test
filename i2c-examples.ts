@@ -1,7 +1,7 @@
 
 //% color=#3F3FFF icon="\uf1e6" block="i2c Beispiele" weight=19
 namespace i2cexamples
-/* 230806
+/* 230806 Funktionen auskommentiert, sind in den Projekten i2c-test und i2c-speicherkarte-verwalten
 Calliope i2c Beispiele, die mehrere i2c Module gleichzeitig nutzen. Lädt alle i2cErweiterungen.
 optimiert und getestet für die gleichzeitige Nutzung mehrerer i2c Module am Calliope mini
 
@@ -16,7 +16,7 @@ Code zum testen der i2c Erweiterungen neu programmiert von Lutz Elßner im Augus
     //% pCount.min=1 pCount.max=16 pCount.defl=8
     //% logFilename.defl="REMOVE.LOG"
     //% inlineInputMode=inline
-    export function loescheDateien(pLCD: lcd16x2rgb.eADDR_LCD, pLOG: qwiicopenlog.eADDR, pCount: number, logFilename: string) {
+/*     export function loescheDateien(pLCD: lcd16x2rgb.eADDR_LCD, pLOG: qwiicopenlog.eADDR, pCount: number, logFilename: string) {
         let iSize: number, iCount: number, sText: string
 
         // liest pCount Dateinamen nach Muster "LOG00*.TXT" in Array aFileName
@@ -51,7 +51,7 @@ Code zum testen der i2c Erweiterungen neu programmiert von Lutz Elßner im Augus
         sText = "" + iCount + " gelöscht"
         lcd16x2rgb.writeText(pLCD, 0, 0, 15, lcd16x2rgb.eAlign.left, sText)
         qwiicopenlog.writeFile(pLOG, logFilename, sText, qwiicopenlog.eCRLF.CRLF)
-    }
+    } */
 
 
 
@@ -61,7 +61,7 @@ Code zum testen der i2c Erweiterungen neu programmiert von Lutz Elßner im Augus
     //% block="i2c %pLCD %pLOG 3 Zeilen in Datei %pFilename schreiben, lesen und anzeigen"
     //% pFilename.defl="UMLAUTE.TXT"
     //% inlineInputMode=inline
-    export function schreibeUmlaute(pLCD: lcd16x2rgb.eADDR_LCD, pLOG: qwiicopenlog.eADDR, pFilename: string) {
+/*     export function schreibeUmlaute(pFilename: string) { // Parameter i2c-Adressen entfernt, weil nicht benutzt
         let iSize: number
         lcd16x2rgb.screenClear(lcd16x2rgb.eADDR_LCD.LCD_16x2)
         lcd16x2rgb.writeText(lcd16x2rgb.eADDR_LCD.LCD_16x2, 0, 0, 15, lcd16x2rgb.eAlign.left, pFilename)
@@ -88,7 +88,7 @@ Code zum testen der i2c Erweiterungen neu programmiert von Lutz Elßner im Augus
         lcd16x2rgb.writeLCD(lcd16x2rgb.eADDR_LCD.LCD_16x2, qwiicopenlog.getString(qwiicopenlog.eArray.FileContent).substr(0, 16))
         lcd16x2rgb.setCursor(lcd16x2rgb.eADDR_LCD.LCD_16x2, 1, 0)
         lcd16x2rgb.writeLCD(lcd16x2rgb.eADDR_LCD.LCD_16x2, qwiicopenlog.getString(qwiicopenlog.eArray.FileContent).substr(16, 16))
-    }
+    } */
 
 
 
@@ -96,12 +96,12 @@ Code zum testen der i2c Erweiterungen neu programmiert von Lutz Elßner im Augus
 
     //% group="i2c LCD RTC LOG Zeile auf Speicherkarte schreiben (Datum, Zeit, Licht, °C), LCD Anzeige"
     //% block="i2c %pLCD %pRTC %pLOG Zeile auf Speicherkarte protokollieren"
-    export function foreverDateLog(pLCD: lcd16x2rgb.eADDR_LCD, pRTC: rtcpcf85063tp.eADDR, pLOG: qwiicopenlog.eADDR) {
+/*     export function foreverDateLog(pLCD: lcd16x2rgb.eADDR_LCD, pRTC: rtcpcf85063tp.eADDR, pLOG: qwiicopenlog.eADDR) {
         rtcpcf85063tp.readDateTime(pRTC)
         let sName = rtcpcf85063tp.getyyMMddHHmmss(0, 8) + ".LOG"
         lcd16x2rgb.writeText(pLCD, 0, 0, 15, lcd16x2rgb.eAlign.left, sName)
         lcd16x2rgb.writeText(pLCD, 1, 0, 15, lcd16x2rgb.eAlign.left, rtcpcf85063tp.getTime(rtcpcf85063tp.ePart.mit))
         qwiicopenlog.writeFile(pLOG, sName, "" + sName + ";" + rtcpcf85063tp.getDate(rtcpcf85063tp.ePart.mit, rtcpcf85063tp.ePart.mit) + ";" + rtcpcf85063tp.getTime(rtcpcf85063tp.ePart.mit) + ";" + input.lightLevel() + ";" + input.temperature(), qwiicopenlog.eCRLF.CRLF)
-    }
+    } */
 
 } // i2c-examples.ts
