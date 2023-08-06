@@ -36,14 +36,6 @@ Um dieses Repository in MakeCode zu importieren.
 
 > Auf dem LCD Display haben verschiedene Funktionen einen eigenen Bereich, ohne sich zu überschreiben.
 
-im Projekt **calliope-net/i2c-test** sind auch noch fertige Blöcke unter **i2c Beispiele**
-
-* braucht Erweiterungen LCD + LOG
-  * leere LOG Dateien 'LOG00*.TXT' löschen und Protokoll-Datei schreiben, LCD Anzeige
-  * Sonderzeichen in Datei 'UMLAUTE.TXT' schreiben und wieder lesen, LCD Anzeige
-* braucht Erweiterungen LCD + RTC + LOG
-  * Zeile auf Speicherkarte schreiben mit Datum und Zeit, Dateiname yyMMddHH.CSV (pro Stunde eine neue Datei), LCD Anzeige
-
 #### 6 Erweiterungen werden automatisch mit geladen
 
 * https://github.com/calliope-net/bit
