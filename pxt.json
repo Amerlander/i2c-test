@@ -9,7 +9,7 @@
         "rtc-pcf85063tp": "github:calliope-net/rtc-pcf85063tp#v1.0.0",
         "log-qwiicopenlog": "github:calliope-net/log-qwiicopenlog#v1.0.0",
         "bit": "github:calliope-net/bit#v1.0.0",
-        "lcd-16x2rgb": "github:calliope-net/lcd-16x2rgb#c73c3cad92b500f63c93319dedbb7cf2243bd45f"
+        "lcd-16x2rgb": "github:calliope-net/lcd-16x2rgb#v1.0.0"
     },
     "files": [
         "README.md",

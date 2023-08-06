@@ -1,7 +1,7 @@
 
 //% color=#3F3FFF icon="\uf1e6" block="i2c Beispiele" weight=19
 namespace i2cexamples
-/* 230805
+/* 230806
 Calliope i2c Beispiele, die mehrere i2c Module gleichzeitig nutzen. Lädt alle i2cErweiterungen.
 optimiert und getestet für die gleichzeitige Nutzung mehrerer i2c Module am Calliope mini
 
