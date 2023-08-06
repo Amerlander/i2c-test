@@ -49,7 +49,7 @@ im Projekt **calliope-net/i2c-test** sind auch noch fertige Blöcke unter **i2c 
 * https://github.com/calliope-net/bit
 * https://github.com/calliope-net/i2c
 * https://github.com/calliope-net/dip-switch
-* https://github.com/calliope-net/lcd16x2rgb
+* https://github.com/calliope-net/lcd-16x2rgb
 * https://github.com/calliope-net/log-qwiicopenlog
 * https://github.com/calliope-net/rtc-pcf85063tp
 
