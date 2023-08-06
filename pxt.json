@@ -4,7 +4,7 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "i2c": "github:calliope-net/i2c#84b3e5119688d67f1b629d632eddead5c700fd00",
+        "i2c": "github:calliope-net/i2c#v1.0.0",
         "dip-switch": "github:calliope-net/dip-switch#v1.0.0",
         "lcd16x2rgb": "github:calliope-net/lcd16x2rgb#47e5ba862c3b2a08a88788449a472b3f8b1e2064",
         "rtc-pcf85063tp": "github:calliope-net/rtc-pcf85063tp#v1.0.0",
@@ -29,5 +29,5 @@
         "calliopemini",
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
