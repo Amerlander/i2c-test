@@ -3,7 +3,7 @@
 
 ![](icon.png)
 
-### i2c Module an Calliope anstecken 
+### i2c Module an Calliope anstecken
 
 * [Grove - 16x2 LCD](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series/)
 * [SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164) / [Qwiic Cable - Grove Adapter](https://www.sparkfun.com/products/15109)
