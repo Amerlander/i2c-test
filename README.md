@@ -1,20 +1,30 @@
-### Calliope i2c Beispiel-Projekt mit vier i2c Modulen gleichzeitig
- lädt alle i2c Erweiterungen von GitHub
 
 > Diese Seite bei [https://calliope-net.github.io/i2c-test/](https://calliope-net.github.io/i2c-test/) öffnen
 
 ![](icon.png)
 
-### Dieses Projekt importieren, mit Calliope testen, bearbeiten
+### i2c Module an Calliope anstecken
+
+* [Grove - 16x2 LCD](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series/)
+* [SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164) / [Qwiic Cable - Grove Adapter](https://www.sparkfun.com/products/15109)
+
+
+Alle i2c Module werden parallel am linken Grove Steckverbinder A0 angeschlossen. 
+Dazu kann ein [i2c-Hub](https://wiki.seeedstudio.com/Grove-I2C-Hub-6Port/) benutzt werden.
+
+Für die Stromversorgung sollte Calliope über USB Kabel (an Computer oder Powerbank) angeschlossen sein.
+
+### Dieses Projekt importieren, mit Calliope testen, bearbeiten.
 
 Um dieses Repository in MakeCode zu importieren.
 
 * öffne [https://makecode.calliope.cc](https://makecode.calliope.cc/)
 * klicke auf **Importieren** und dann auf **Importiere URL**
-* füge folgende **URL des Projekts** ein und klicke auf **Los geht's!**
-* **https://github.com/calliope-net/i2c-test**
+* kopiere die folgende **URL des Projekts** in die Zwischenablage*
+* **calliope-net/i2c-test**
+* füge sie auf der MakeCode Webseite ein und klicke auf **Los geht's!**
 
-#### mit dem DIP Schalter wird eingestellt:
+### Bedienung Calliope: mit dem DIP Schalter wird eingestellt:
 
 * Schalter 1 OFF: LCD Display zeigt Datum und Uhrzeit an (dauerhaft jede Sekunde)
   * solange Knopf B gedrückt: zeigt den Zustand der 6 DIP Schalter binär am LCD Display an
@@ -36,14 +46,14 @@ Um dieses Repository in MakeCode zu importieren.
 
 > Auf dem LCD Display haben verschiedene Funktionen einen eigenen Bereich, ohne sich zu überschreiben.
 
-#### 6 Erweiterungen werden automatisch mit geladen
+### 6 Erweiterungen werden automatisch mit geladen
 
-* https://github.com/calliope-net/bit
-* https://github.com/calliope-net/i2c
-* https://github.com/calliope-net/dip-switch
-* https://github.com/calliope-net/lcd-16x2rgb
-* https://github.com/calliope-net/log-qwiicopenlog
-* https://github.com/calliope-net/rtc-pcf85063tp
+* [https://github.com/calliope-net/bit](https://calliope-net.github.io/bit/)
+* [https://github.com/calliope-net/i2c](https://calliope-net.github.io/i2c/)
+* [https://github.com/calliope-net/dip-switch](https://calliope-net.github.io/dip-switch/)
+* [https://github.com/calliope-net/lcd-16x2rgb](https://calliope-net.github.io/lcd-16x2rgb/)
+* [https://github.com/calliope-net/log-qwiicopenlog](https://calliope-net.github.io/log-qwiicopenlog/)
+* [https://github.com/calliope-net/rtc-pcf85063tp](https://calliope-net.github.io/rtc-pcf85063tp/)
 
 ![](blocks.png)
 
@@ -53,7 +63,19 @@ Um dieses Repository in MakeCode zu importieren.
 
 ![](explorer.png)
 
-#### Bezugsquellen
+### Updates
+
+> Um ein Update einer Erweiterung von GitHub zu laden, klicke in der JavaScript Ansicht
+> links unter dem Simulator auf den schwarzen Explorer. Dort steht der Name der Erweiterung
+> vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweiterung gelöscht,
+> mit dem runden Pfeil nach einem Update gesucht. Danach steht dort eine Versionsnummer.
+
+### Programmier-Beispiele, i2c-Module, Bilder, Bezugsquellen:
+* [Calliope i2c Demo-Projekt mit vier i2c Modulen gleichzeitig, mit DIP-Schalter.](https://calliope-net.github.io/i2c-test/)
+* [Quarz-Uhr anzeigen, stellen mit Knopf A/B, Korrektur-Register, Binär-Uhr.](https://calliope-net.github.io/i2c-uhr-stellen/)
+* [Dateien der Speicherkarte anzeigen, lesen, schreiben, löschen, mit Knopf A/B.](https://calliope-net.github.io/i2c-speicherkarte-verwalten/)
+
+### Bezugsquellen
 
 * [Grove - I2C Hub (6 Port)](https://www.mouser.de/ProductDetail/713-103020272)
 * [Grove - 6-Position DIP Switch](https://www.mouser.de/ProductDetail/713-111020043)
