@@ -1,5 +1,5 @@
 ### Calliope i2c Beispiel-Projekt mit vier i2c Modulen gleichzeitig
-lädt alle i2c Erweiterungen von GitHub
+ lädt alle i2c Erweiterungen von GitHub
 
 > Diese Seite bei [https://calliope-net.github.io/i2c-test/](https://calliope-net.github.io/i2c-test/) öffnen
 
