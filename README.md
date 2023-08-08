@@ -20,7 +20,7 @@ Um dieses Repository in MakeCode zu importieren.
 
 * öffne [https://makecode.calliope.cc](https://makecode.calliope.cc/)
 * klicke auf **Importieren** und dann auf **Importiere URL**
-* kopiere die folgende **URL des Projekts** in die Zwischenablage*
+* kopiere die folgende **URL des Projekts** in die Zwischenablage
 * **calliope-net/i2c-test**
 * füge sie auf der MakeCode Webseite ein und klicke auf **Los geht's!**
 
