@@ -77,7 +77,7 @@ Um dieses Repository in MakeCode zu importieren.
 
 ### Programmier-Beispiele, Calliope-Apps, .hex-Dateien, Bildschirmfotos mit Blöcken
 
-* [Calliope-App mit vier i2c Modulen gleichzeitig, DIP-Schalter, Speicherkarte, LCD, Uhr.](https://calliope-net.github.io/i2c-test/)
+* [Calliope-App mit vier i2c Modulen gleichzeitig, DIP-Schalter, Speicherkarte, LCD-Display, Uhr.](https://calliope-net.github.io/i2c-test/)
 * [Calliope-App Quarz-Uhr anzeigen, stellen mit Knopf A/B, Korrektur-Register, Binär-Uhr.](https://calliope-net.github.io/i2c-uhr-stellen/)
 * [Calliope-App Dateien der Speicherkarte anzeigen, lesen, schreiben, löschen, mit Knopf A/B.](https://calliope-net.github.io/i2c-speicherkarte-verwalten/)
 
