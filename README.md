@@ -75,7 +75,7 @@ Um dieses Repository in MakeCode zu importieren.
 > vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweiterung gelöscht,
 > mit dem runden Pfeil nach einem Update gesucht. Danach steht dort eine Versionsnummer.
 
-### Programmier-Beispiele, Calliope-Apps, .hex-Dateien, Bildschirmfotos mit Blöcken
+### Calliope-Apps, .hex-Dateien, Bildschirmfotos mit Blöcken
 
 * [Calliope-App mit vier i2c Modulen gleichzeitig, DIP-Schalter, Speicherkarte, LCD-Display, Uhr.](https://calliope-net.github.io/i2c-test/)
 * [Calliope-App Quarz-Uhr anzeigen, stellen mit Knopf A/B, Korrektur-Register, Binär-Uhr.](https://calliope-net.github.io/i2c-uhr-stellen/)
