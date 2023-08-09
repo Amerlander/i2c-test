@@ -8,13 +8,18 @@
 * [Grove - 16x2 LCD](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series/)
 * [SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164) / [Qwiic Cable - Grove Adapter](https://www.sparkfun.com/products/15109)
 
-
 Alle i2c Module werden parallel am linken Grove Steckverbinder A0 angeschlossen. 
 Dazu kann ein [i2c-Hub](https://wiki.seeedstudio.com/Grove-I2C-Hub-6Port/) benutzt werden.
+i2c Module mit zwei Buchsen (z.B. Qwiic) können hintereinander gesteckt werden.
 
 Für die Stromversorgung sollte Calliope über USB Kabel (an Computer oder Powerbank) angeschlossen sein.
 
-### Dieses Projekt importieren, mit Calliope testen, bearbeiten.
+### .hex-Datei direkt auf Calliope laden, oder in MakeCode importieren.
+
+* [mini-i2c-test.hex](mini-i2c-test.hex)
+* [Schnappschuss (Bildschirmfoto mit den Blöcken)](mini-i2c-test.png)
+
+### Dieses Projekt von GitHub importieren, bearbeiten, mit Calliope testen.
 
 Um dieses Repository in MakeCode zu importieren.
 
@@ -24,7 +29,7 @@ Um dieses Repository in MakeCode zu importieren.
 * **calliope-net/i2c-test**
 * füge sie auf der MakeCode Webseite ein und klicke auf **Los geht's!**
 
-### Bedienung Calliope: mit dem DIP Schalter wird eingestellt:
+### Bedienung der Calliope-App: mit dem DIP Schalter wird eingestellt:
 
 * Schalter 1 OFF: LCD Display zeigt Datum und Uhrzeit an (dauerhaft jede Sekunde)
   * solange Knopf B gedrückt: zeigt den Zustand der 6 DIP Schalter binär am LCD Display an
@@ -70,10 +75,16 @@ Um dieses Repository in MakeCode zu importieren.
 > vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweiterung gelöscht,
 > mit dem runden Pfeil nach einem Update gesucht. Danach steht dort eine Versionsnummer.
 
-### Programmier-Beispiele, i2c-Module, Bilder, Bezugsquellen:
-* [Calliope i2c Demo-Projekt mit vier i2c Modulen gleichzeitig, mit DIP-Schalter.](https://calliope-net.github.io/i2c-test/)
-* [Quarz-Uhr anzeigen, stellen mit Knopf A/B, Korrektur-Register, Binär-Uhr.](https://calliope-net.github.io/i2c-uhr-stellen/)
-* [Dateien der Speicherkarte anzeigen, lesen, schreiben, löschen, mit Knopf A/B.](https://calliope-net.github.io/i2c-speicherkarte-verwalten/)
+### Programmier-Beispiele, Calliope-Apps, .hex-Dateien, Bildschirmfotos mit Blöcken
+
+* [Calliope-App mit vier i2c Modulen gleichzeitig, DIP-Schalter, Speicherkarte, LCD, Uhr.](https://calliope-net.github.io/i2c-test/)
+* [Calliope-App Quarz-Uhr anzeigen, stellen mit Knopf A/B, Korrektur-Register, Binär-Uhr.](https://calliope-net.github.io/i2c-uhr-stellen/)
+* [Calliope-App Dateien der Speicherkarte anzeigen, lesen, schreiben, löschen, mit Knopf A/B.](https://calliope-net.github.io/i2c-speicherkarte-verwalten/)
+
+### Material
+
+* [i2c-Erweiterungen für MakeCode (Software)](https://calliope-net.github.io/i2c-test)
+* [i2c-Module und Bezugsquellen (Hardware)](https://calliope-net.github.io/i2c-test#bezugsquellen)
 
 ### Bezugsquellen
 
