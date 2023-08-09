@@ -51,7 +51,9 @@ Um dieses Repository in MakeCode zu importieren.
 
 > Auf dem LCD Display haben verschiedene Funktionen einen eigenen Bereich, ohne sich zu überschreiben.
 
-### 6 Erweiterungen werden automatisch mit geladen
+### Erweiterungen
+
+alle Erweiterungen werden automatisch von GitHub geladen
 
 * [https://github.com/calliope-net/bit](https://calliope-net.github.io/bit/)
 * [https://github.com/calliope-net/i2c](https://calliope-net.github.io/i2c/)
@@ -83,7 +85,7 @@ Um dieses Repository in MakeCode zu importieren.
 
 ### Material
 
-* [i2c-Erweiterungen für MakeCode (Software)](https://calliope-net.github.io/i2c-test)
+* [i2c-Erweiterungen für MakeCode (Software)](https://calliope-net.github.io/i2c-test#erweiterungen)
 * [i2c-Module und Bezugsquellen (Hardware)](https://calliope-net.github.io/i2c-test#bezugsquellen)
 
 ### Bezugsquellen
