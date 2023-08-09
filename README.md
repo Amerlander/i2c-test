@@ -29,7 +29,7 @@ Um dieses Repository in MakeCode zu importieren.
 * **calliope-net/i2c-test**
 * füge sie auf der MakeCode Webseite ein und klicke auf **Los geht's!**
 
-### Bedienung der Calliope-App: mit dem DIP Schalter wird eingestellt:
+### Bedienung der 'Calliope-App': mit dem DIP Schalter wird eingestellt:
 
 * Schalter 1 OFF: LCD Display zeigt Datum und Uhrzeit an (dauerhaft jede Sekunde)
   * solange Knopf B gedrückt: zeigt den Zustand der 6 DIP Schalter binär am LCD Display an
