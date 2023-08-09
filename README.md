@@ -53,7 +53,7 @@ Um dieses Repository in MakeCode zu importieren.
 
 ### Erweiterungen
 
-alle Erweiterungen werden automatisch von GitHub geladen
+alle Erweiterungen (Software) werden automatisch von GitHub geladen
 
 * [https://github.com/calliope-net/bit](https://calliope-net.github.io/bit/)
 * [https://github.com/calliope-net/i2c](https://calliope-net.github.io/i2c/)
