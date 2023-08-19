@@ -102,7 +102,7 @@ Die Erweiterungen sind **nicht** auf Calliope 2.x eingestellt, sollten auch mit 
 Alle Erweiterungen (Software) werden von der 'Calliope-i2c-Test-App' automatisch von GitHub geladen.
 
 Die Erweiterungen **bit** und **i2c** (die mit 3 Buchstaben) enthalten nur zusätzliche Blöcke zur Formatierung von Text und Zahlen, Logik und zur Programmierung beliebiger i2c Module ohne JavaScript.
-Diese Erweiterungen werden von den folgenden Erweiterungen für i2c Hardware-Module **nicht** benötigt. Jede Erweiterung kann von GitHub über calliope-net/name allein geladen werden.
+Diese Erweiterungen werden von den folgenden Erweiterungen für i2c Hardware-Module **nicht** benötigt. Jede Erweiterung kann von GitHub über **calliope-net/name** allein geladen werden.
 
 * [https://github.com/calliope-net/bit](https://calliope-net.github.io/bit/)
 * [https://github.com/calliope-net/i2c](https://calliope-net.github.io/i2c/)
@@ -120,18 +120,17 @@ Diese Erweiterungen werden von den folgenden Erweiterungen für i2c Hardware-Mod
 
 ![](blocks.png)
 
-> Für eigene Entwicklungen, oder wenn i2c Module fehlen, können nicht benötigte Erweiterungen gelöscht werden.
-> Dazu in der **JavaScript** Ansicht links unter dem Simulator im schwarzen Explorer auf den Mülleimer klicken.
-> Mit dem Pfeil-Symbol kann die Erweiterung aktualisiert werden, wenn es ein Update gab.
+#### Erweiterungen aus vorhendenen Projekten löschen
+
+Für eigene Entwicklungen auf Grundlage der Beispiel-Apps, oder wenn i2c Module fehlen, können nicht benötigte Erweiterungen gelöscht werden.
+Dazu in der **JavaScript** Ansicht links unter dem Simulator im schwarzen Explorer auf den Mülleimer klicken.
 
 ![](explorer.png)
 
 ### Updates
 
-> Um ein Update einer Erweiterung von GitHub zu laden, klicke in der JavaScript Ansicht
-> links unter dem Simulator auf den schwarzen Explorer. Dort steht der Name der Erweiterung
-> vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweiterung gelöscht,
-> mit dem runden Pfeil nach einem Update gesucht. Danach steht dort eine Versionsnummer.
+Um ein Update einer Erweiterung von GitHub zu laden, klicke in der JavaScript Ansicht links unter dem Simulator auf den schwarzen Explorer. Dort steht der Name der Erweiterung
+vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweiterung gelöscht, mit dem runden Pfeil nach einem Update gesucht. Danach steht dort eine Versionsnummer.
 
 ### Calliope-Apps, .hex-Dateien, Bildschirmfotos mit Blöcken
 
