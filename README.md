@@ -1,5 +1,7 @@
 
-> Diese Seite bei [https://calliope-net.github.io/i2c-test/](https://calliope-net.github.io/i2c-test/) öffnen
+> Diese Seite bei [https://calliope-net.github.io/i2c-test/](https://calliope-net.github.io/i2c-test/) öffnen.
+
+> Diese Calliope-i2c-Test-App direkt in MakeCode [https://makecode.calliope.cc/_RFD2qFYJe2Ps](https://makecode.calliope.cc/_RFD2qFYJe2Ps) öffnen.
 
 ![](mini-i2c-test.jpg)
 ![](mini-i2c-test.png)
