@@ -147,7 +147,7 @@ vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweit
 
 ### Bezugsquellen
 
-
+##### Grove [seeed studio](https://wiki.seeedstudio.com/Grove_System/)
 
 * [Grove - I2C Hub (6 Port)](https://www.mouser.de/ProductDetail/713-103020272)
 * [Grove - 6-Position DIP Switch](https://www.mouser.de/ProductDetail/713-111020043)
@@ -158,12 +158,12 @@ vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweit
 * [Grove - LCD RGB Backlight](https://www.mouser.de/ProductDetail/713-104030001)
 * [Grove - High Precision RTC](https://www.mouser.de/ProductDetail/713-102020083)
 
-
+##### Qwiic [SparkFun Qwiic - Making I2C as easy as possible.](https://www.sparkfun.com/categories/399)
 
 * [SparkFun Qwiic OpenLog](https://www.mouser.de/ProductDetail/474-DEV-15164)
 * [SparkFun Qwiic OpenLog](https://www.digikey.de/de/products/detail/sparkfun-electronics/DEV-15164/9920435)
 
-#### Kabel und Adapter
+##### i2c Kabel und Adapter
 
 * [Qwiic Cable - Grove Adapter (100mm)](https://www.mouser.de/ProductDetail/474-PRT-15109)
 * [Qwiic Adapter](https://www.mouser.de/ProductDetail/474-DEV-14495)
