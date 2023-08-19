@@ -43,7 +43,7 @@ Um dieses Repository in MakeCode zu importieren.
 * **calliope-net/i2c-test**
 * füge sie auf der MakeCode Webseite ein (Strg-V) und klicke auf **Los geht's!**
 
-### Funktion der 'Calliope-App'
+### Beschreibung der 'Calliope-App' und Hardware
 
 Im Test funktionierten 7 Module gleichzeitig. Nur das Modul 'Grove - 16x2 LCD' funktionierte nicht mit allen anderen zusammen und wurde deshalb weg gelassen.
 Es kann aber anstatt des großen 20x4 LCD Moduls verwendet werden.
@@ -51,9 +51,24 @@ Es kann aber anstatt des großen 20x4 LCD Moduls verwendet werden.
 [Qwiic](https://www.sparkfun.com/qwiic) Module (das sind die roten mit den kleinen Steckern) sind immer für i2c und haben immer 3,3 V Logik. Damit passt jedes Qwiic Modul grundsätzlich zum Calliope. 
 Es sind keine Kabel beigelegt, deshalb den [Qwiic Cable - Grove Adapter](https://www.sparkfun.com/products/15109) mit bestellen. 
 Für mehrere Qwiic Module eignet sich das [Qwiic Cable Kit](https://www.mouser.de/ProductDetail/474-KIT-15081).
-Die Software für die ersten vier Qwiic Module steht jetzt zur Verfügung. Weitere Erweiterungen sind geplant...
+Die Software für die ersten vier Qwiic Module steht jetzt zur Verfügung. Mehr Erweiterungen sind geplant...
 
+Das Modul mit den 4 Relais wird auch an den i2c Bus angesteckt. Es funktioniert mit 3,3 V Logik, braucht aber für die Relais 5 Volt. Diese Spannung wird aus dem USB Anschluss genommen.
+**Achtung!** Der rote Draht (+Pol) muss vom Grove-Stecker getrennt werden, wenn externe Spannung eingespeist wird. Nur der schwarze Draht (-Pol GND) muss verbunden werden.
+Qwiic geht bei 5 Volt kaputt!
 
+Damit mehrere i2c Module am selben Bus funktionieren, darf sie die Software nur nach einander ansteuern. 
+Das heißt, bei MakeCode dürfen i2c Erweiterungen nur aus einem einzigen Ereignis (aus dem selben Thread) aufgerufen werden.
+Der Verkehr auf dem Bus sollte reduziert werden, indem das selbe Register nur einmal im Intervall eingelesen wird.
+Damit können die Module über den i2c Bus auch keine Interrupts auslösen. Ein Hintergrund Thread, der den Status abfragt, führt dazu, dass sich der i2c Bus nach wenigen Minuten aufhängt.
+
+**Hardware-Interrupt** wird von Modulen unterstützt, von denen eine Eingabe kommt (Uhr, Keypad, GPIO-input). Dazu muss der INT Anschluss vom Modul zu einem Calliope-Pin verdrahtet werden.
+Der Pin kann dann einen Interrupt auslösen. Allerdings: Es darf nur ein Ereignis geben! In diesem Beispiel löst der Sekundentakt vom Uhr-Modul das Ereignis *pins.onPulsed* aus. 
+Im Bild ist ein gelber Draht von CLK zu P1 zu erkennen. CLK muss dazu auf 1 Hz programmiert werden.
+
+**GPIO** bedeutet: 'General-purpose input/output'. Das Modul hat 8 einzeln programmierbare digitale Ein- oder Ausgänge. 
+Die restlichen 8 Klemmen sind 4xGND, 3x3V3 und der Interrupt hat eine Klemme, damit nicht gelötet werden muss.
+Der Interrupt wird ausgelöst, wenn sich ein Eingang geändert hat. Es funktioniert nur mit Pull-up: *ziehe den Pin .. auf nach oben*.
 
 
 
