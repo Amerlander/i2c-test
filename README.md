@@ -48,30 +48,34 @@ Um dieses Repository in MakeCode zu importieren.
 Im Test funktionierten 7 Module gleichzeitig. Nur das Modul 'Grove - 16x2 LCD' funktionierte nicht mit allen anderen zusammen und wurde deshalb weg gelassen.
 Es kann aber anstatt des großen 20x4 LCD Moduls verwendet werden.
 
-[Qwiic](https://www.sparkfun.com/qwiic) Module (das sind die roten mit den kleinen Steckern) gibt es nur für i2c und mit 3,3 V Logik. Damit passt jedes Qwiic Modul grundsätzlich zum Calliope. 
+[Qwiic](https://www.sparkfun.com/qwiic) Module (das sind die roten mit den kleinen Steckern) haben **immer** einen i2c Anschluss und 3,3 V Logik. Damit passt jedes Qwiic Modul grundsätzlich zum Calliope. 
 Es sind keine Kabel beigelegt, deshalb den [Qwiic Cable - Grove Adapter](https://www.sparkfun.com/products/15109) mit bestellen. 
 Für mehrere Qwiic Module eignet sich das [Qwiic Cable Kit](https://www.mouser.de/ProductDetail/474-KIT-15081).
 Die Software für die ersten vier Qwiic Module steht jetzt zur Verfügung. Mehr Erweiterungen sind geplant...
 
 Das Modul mit den **4 Relais** wird auch an den i2c Bus angesteckt. Es funktioniert mit 3,3 V Logik, braucht aber für die Relais 5 Volt. Diese Spannung wird aus dem USB Anschluss genommen.
 **Achtung!** Der rote Draht (+Pol) muss vom Grove-Stecker getrennt werden, wenn externe Spannung eingespeist wird. Nur der schwarze Draht (-Pol GND) muss verbunden werden.
-Qwiic geht bei 5 Volt kaputt!
+**Qwiic geht bei 5 Volt kaputt!**
 
 Damit mehrere i2c Module am selben Bus funktionieren, darf sie die Software nur nach einander ansteuern. 
 Das heißt, bei MakeCode dürfen i2c Erweiterungen nur aus einem einzigen Ereignis (aus dem selben Thread) aufgerufen werden.
 Der Verkehr auf dem Bus sollte reduziert werden, indem das selbe Register nur einmal im Intervall eingelesen wird.
-Damit können die Module über den i2c Bus auch keine Interrupts auslösen. Ein Hintergrund Thread, der den Status abfragt, führt dazu, dass sich der i2c Bus nach wenigen Minuten aufhängt.
+Damit können die Module über den i2c Bus auch keine Interrupts auslösen. 
+Ein Hintergrund Thread, der den Status abfragt, oder eine Laufschrift realisiert, führt dazu, dass sich der i2c Bus nach wenigen Minuten aufhängt.
 
 **Hardware-Interrupt** wird von Modulen unterstützt, von denen eine Eingabe kommt (Uhr, Keypad, GPIO-input). Dazu muss der INT Anschluss vom Modul zu einem Calliope-Pin verdrahtet werden.
-Der Pin kann dann einen Interrupt auslösen. Allerdings: Es darf nur ein Ereignis geben! In diesem Beispiel löst der Sekundentakt vom Uhr-Modul das Ereignis *pins.onPulsed* aus. 
+Der Pin kann dann einen Interrupt auslösen, der geht nämlich direkt an den Prozessor.
+Allerdings: Es darf auch nur ein Pin-Ereignis geben und dann keine *dauerhaft* oder *alle .. ms Schleife*! In diesem Beispiel löst der Sekundentakt vom Uhr-Modul das Ereignis *pins.onPulsed* aus. 
 Im Bild ist ein gelber Draht von CLK zu P1 zu erkennen. CLK muss dazu auf 1 Hz programmiert werden.
 
 **GPIO** bedeutet: 'General-purpose input/output'. Das Modul hat 8 einzeln programmierbare digitale Ein- oder Ausgänge. 
 Die restlichen 8 Klemmen sind 4xGND, 3x3V3 und der Interrupt hat eine Klemme, damit nicht gelötet werden muss.
 Der Interrupt wird ausgelöst, wenn sich ein Eingang geändert hat. Es funktioniert nur mit Pull-up: *ziehe den Pin .. auf nach oben*.
 Der Strom am Ausgang reicht für Leuchtdioden mit Vorwiderstand! [Ein Beispiel mit 7-Segment-Anzeige.](https://calliope-net.github.io/i2c-keypad-gpio-7segment/)
+Es können bis zu 8 Qwiic GPIO Module hintereinander gesteckt und damit 64 digitale Ein- Ausgänge programmiert werden. Mit einem Calliope!
+Die i2c Adresse kann durch Kratzen auf der Leiterplatte geändert werden.
 
-Mit den **KeyPad** Tasten 0-9 werden (binär) die 4 Relais geschaltet und gleichzeitig die am GPIO Modul angeklemmten 4 Leuchtdioden. 
+Mit den **KeyPad** Tasten 0-9 werden (binär) die 4 Relais geschaltet und gleichzeitig die am GPIO Modul angeklemmten 4 Leuchtdioden (mit eingebautem Vorwiderstand). 
 Vom Keypad wird (in dem Pin Ereignis von der Uhr) einmal pro Sekunde die zuerst gedrückte (und noch nicht abgeholte) Taste abgefragt. 
 Werden mehrere Tasten pro Sekunde gedrückt, merkt sich das KeyPad diese und gibt sie in den folgenden Sekunden ab.
 
@@ -89,19 +93,30 @@ Mit Knopf A/B kann die 'wildcard' geändert werden: \*.* \*.TXT LOG\*.TXT \*.LOG
 
 Die Blöcke in dem einen Ereignis rufen nacheinander 7 verschiedene Module am selben i2c Bus auf. Das wiederholt sich jede Sekunde.
 
-Unerwartet ist, dass der Stromverbrauch und auch die Spannung an dem einen Grove Anschluss A0 am Calliope für alle Module ausreicht - wenn der Calliope über das USB Kabel mit Strom versorgt wird.
+Unerwartet positiv ist, dass der Stromverbrauch und auch die Spannung an dem einen Grove Anschluss A0 am Calliope für alle Module ausreicht - wenn der Calliope über das USB Kabel mit Strom versorgt wird.
 Auch der Programmcode von 10 gleichzeitig geladenen Erweiterungen verursacht keine Probleme. MakeCode kompiliert und überträgt es zum Calliope (natürlich mit dem Uploader).
+Die Erweiterungen sind **nicht** auf Calliope 2.x eingestellt, sollten auch mit 1.x laufen. Getestet wurde mit Calliope 2.1.
 
 ### Erweiterungen
 
-alle Erweiterungen (Software) werden automatisch von GitHub geladen
+Alle Erweiterungen (Software) werden von der 'Calliope-i2c-Test-App' automatisch von GitHub geladen.
+
+Die Erweiterungen **bit** und **i2c** (die mit 3 Buchstaben) enthalten nur zusätzliche Blöcke zur Formatierung von Text und Zahlen, Logik und zur Programmierung beliebiger i2c Module ohne JavaScript.
+Diese Erweiterungen werden von den folgenden Erweiterungen für i2c Hardware-Module **nicht** benötigt. Jede Erweiterung kann von GitHub über calliope-net/name allein geladen werden.
 
 * [https://github.com/calliope-net/bit](https://calliope-net.github.io/bit/)
 * [https://github.com/calliope-net/i2c](https://calliope-net.github.io/i2c/)
-* [https://github.com/calliope-net/dip-switch](https://calliope-net.github.io/dip-switch/)
-* [https://github.com/calliope-net/lcd-16x2rgb](https://calliope-net.github.io/lcd-16x2rgb/)
-* [https://github.com/calliope-net/log-qwiicopenlog](https://calliope-net.github.io/log-qwiicopenlog/)
+
+#### Erweiterungen für i2c Hardware-Module
+
 * [https://github.com/calliope-net/rtc-pcf85063tp](https://calliope-net.github.io/rtc-pcf85063tp/)
+* [https://github.com/calliope-net/lcd-16x2rgb](https://calliope-net.github.io/lcd-16x2rgb/)
+* [https://github.com/calliope-net/lcd-20x4](https://calliope-net.github.io/lcd-20x4/)
+* [https://github.com/calliope-net/log-qwiicopenlog](https://calliope-net.github.io/log-qwiicopenlog/)
+* [https://github.com/calliope-net/key-qwiickeypad](https://calliope-net.github.io/key-qwiickeypad/)
+* [https://github.com/calliope-net/8io-qwiicgpio](https://calliope-net.github.io/8io-qwiicgpio/)
+* [https://github.com/calliope-net/dip-switch](https://calliope-net.github.io/dip-switch/)
+* [https://github.com/calliope-net/spdt-relay](https://calliope-net.github.io/spdt-relay/)
 
 ![](blocks.png)
 
