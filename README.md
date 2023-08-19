@@ -1,7 +1,7 @@
 
 > Diese Seite bei [https://calliope-net.github.io/i2c-test/](https://calliope-net.github.io/i2c-test/) öffnen.
 
-> Diese Calliope-i2c-Test-App direkt in MakeCode [https://makecode.calliope.cc/_RFD2qFYJe2Ps](https://makecode.calliope.cc/_RFD2qFYJe2Ps) öffnen.
+> Diese Calliope-App direkt in MakeCode [https://makecode.calliope.cc/_RFD2qFYJe2Ps](https://makecode.calliope.cc/_RFD2qFYJe2Ps) öffnen.
 
 ![](mini-i2c-test.jpg)
 ![](mini-i2c-test.png)
@@ -11,7 +11,7 @@
 * [Grove - High Precision RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC/)
 * [Grove - 16x2 LCD](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series/)
 * [SparkFun 20x4 SerLCD - RGB Backlight (Qwiic)](https://www.sparkfun.com/products/16398)
-* [SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164) /
+* [SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164)
 * [SparkFun Qwiic Keypad - 12 Button](https://www.sparkfun.com/products/15290)
 * [SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
 * [Grove - 6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch/) / [Grove - 5-Way Switch](https://wiki.seeedstudio.com/Grove-5-Way_Switch/)
