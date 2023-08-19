@@ -2,6 +2,7 @@
 > Diese Seite bei [https://calliope-net.github.io/i2c-test/](https://calliope-net.github.io/i2c-test/) öffnen
 
 ![](mini-i2c-test.jpg)
+![](mini-i2c-test.png)
 
 ### i2c Module an Calliope anstecken
 
