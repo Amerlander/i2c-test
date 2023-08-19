@@ -149,24 +149,37 @@ vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweit
 
 ##### Grove [seeed studio](https://wiki.seeedstudio.com/Grove_System/)
 
-* [Grove - I2C Hub (6 Port)](https://www.mouser.de/ProductDetail/713-103020272)
-* [Grove - 6-Position DIP Switch](https://www.mouser.de/ProductDetail/713-111020043)
-* [Grove - 5-Way Switch](https://www.mouser.de/ProductDetail/713-111020048)
-* [Grove - 16 x 2 LCD (White on Blue)](https://www.mouser.de/ProductDetail/713-104020111)
-* [Grove - 16 x 2 LCD (Black on Red)](https://www.mouser.de/ProductDetail/713-104020112)
-* [Grove - 16 x 2 LCD (Black on Yellow)](https://www.mouser.de/ProductDetail/713-104020113)
-* [Grove - LCD RGB Backlight](https://www.mouser.de/ProductDetail/713-104030001)
 * [Grove - High Precision RTC](https://www.mouser.de/ProductDetail/713-102020083)
+* [Grove - 16 x 2 LCD (White on Blue)](https://www.mouser.de/ProductDetail/713-104020111)
+* * [Grove - 16 x 2 LCD (Black on Red)](https://www.mouser.de/ProductDetail/713-104020112)
+* * [Grove - 16 x 2 LCD (Black on Yellow)](https://www.mouser.de/ProductDetail/713-104020113)
+* * [Grove - LCD RGB Backlight](https://www.mouser.de/ProductDetail/713-104030001)
+* [Grove - 6-Position DIP Switch](https://www.mouser.de/ProductDetail/713-111020043)
+* * [Grove - 5-Way Switch](https://www.mouser.de/ProductDetail/713-111020048)
 
 ##### Qwiic [SparkFun Qwiic - Making I2C as easy as possible.](https://www.sparkfun.com/categories/399)
 
-* [SparkFun Qwiic OpenLog](https://www.mouser.de/ProductDetail/474-DEV-15164)
 * [SparkFun Qwiic OpenLog](https://www.digikey.de/de/products/detail/sparkfun-electronics/DEV-15164/9920435)
+  * [SparkFun Qwiic OpenLog](https://www.mouser.de/ProductDetail/474-DEV-15164)
 
-##### i2c Kabel und Adapter
+##### Grove Kabel und i2c Hub
+
+* [Grove - Universal 4 Pin Buckled 5cm Cable (5 PCs Pack)](https://www.mouser.de/ProductDetail/Seeed-Studio/110990036)
+* [Grove-Kabel 10 cm (5 Stk./Set)](https://www.conrad.de/de/p/m5-stack-a034-a-kabel-5-st-passend-fuer-entwicklungskits-arduino-2373098.html)
+* [Grove - Universal 4 Pin Buckled 40cm Cable (5 PCs Pack)](https://www.mouser.de/ProductDetail/Seeed-Studio/110990064)
+* [Grove - Universal 4 Pin Buckled 50cm Cable (5 PCs Pack)](https://www.mouser.de/ProductDetail/Seeed-Studio/110990038)
+* [Grove-Kabel 100 cm](https://www.conrad.de/de/p/m5-stack-a034-d-kabel-1-st-2306328.html)
+* [Grove-Kabel 200 cm](https://www.conrad.de/de/p/m5-stack-a034-e-kabel-1-st-passend-fuer-entwicklungskits-arduino-2306329.html)
+* [Grove - I2C Hub (4 Port)](https://www.mouser.de/ProductDetail/Seeed-Studio/103020006)
+* [Grove - I2C Hub (6 Port)](https://www.mouser.de/ProductDetail/713-103020272)
+
+##### Qwiic i2c Kabel und Adapter
 
 * [Qwiic Cable - Grove Adapter (100mm)](https://www.mouser.de/ProductDetail/474-PRT-15109)
+* [Qwiic Cable Kit](https://www.mouser.de/ProductDetail/474-KIT-15081)
 * [Qwiic Adapter](https://www.mouser.de/ProductDetail/474-DEV-14495)
+* [Qwiic MultiPort](https://www.mouser.de/ProductDetail/SparkFun/BOB-18012)
+  * [SPARKFUN QWIIC MULTIPORT](https://www.digikey.de/de/products/detail/sparkfun-electronics/BOB-18012/13998109)
 
 #### Metadaten (verwendet für Suche, Rendering)
 
