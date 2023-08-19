@@ -151,11 +151,11 @@ vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweit
 
 * [Grove - High Precision RTC](https://www.mouser.de/ProductDetail/713-102020083)
 * [Grove - 16 x 2 LCD (White on Blue)](https://www.mouser.de/ProductDetail/713-104020111)
-* * [Grove - 16 x 2 LCD (Black on Red)](https://www.mouser.de/ProductDetail/713-104020112)
-* * [Grove - 16 x 2 LCD (Black on Yellow)](https://www.mouser.de/ProductDetail/713-104020113)
-* * [Grove - LCD RGB Backlight](https://www.mouser.de/ProductDetail/713-104030001)
+  * [Grove - 16 x 2 LCD (Black on Red)](https://www.mouser.de/ProductDetail/713-104020112)
+  * [Grove - 16 x 2 LCD (Black on Yellow)](https://www.mouser.de/ProductDetail/713-104020113)
+  * [Grove - LCD RGB Backlight](https://www.mouser.de/ProductDetail/713-104030001)
 * [Grove - 6-Position DIP Switch](https://www.mouser.de/ProductDetail/713-111020043)
-* * [Grove - 5-Way Switch](https://www.mouser.de/ProductDetail/713-111020048)
+  * [Grove - 5-Way Switch](https://www.mouser.de/ProductDetail/713-111020048)
 
 ##### Qwiic [SparkFun Qwiic - Making I2C as easy as possible.](https://www.sparkfun.com/categories/399)
 
