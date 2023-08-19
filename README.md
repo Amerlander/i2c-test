@@ -178,7 +178,7 @@ vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweit
 * [Qwiic Cable - Grove Adapter (100mm)](https://www.mouser.de/ProductDetail/474-PRT-15109)
 * [Qwiic Cable Kit](https://www.mouser.de/ProductDetail/474-KIT-15081)
 * [Qwiic Adapter](https://www.mouser.de/ProductDetail/474-DEV-14495)
-* [Qwiic MultiPort](https://www.mouser.de/ProductDetail/SparkFun/BOB-18012)
+* [Qwiic MultiPort](https://www.mouser.de/ProductDetail/474-BOB-18012)
   * [SPARKFUN QWIIC MULTIPORT](https://www.digikey.de/de/products/detail/sparkfun-electronics/BOB-18012/13998109)
 
 #### Metadaten (verwendet für Suche, Rendering)
