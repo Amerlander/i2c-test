@@ -17,7 +17,7 @@
 * [Grove - 6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch/) / [Grove - 5-Way Switch](https://wiki.seeedstudio.com/Grove-5-Way_Switch/)
 * [Grove - 4-Channel SPDT Relay](https://wiki.seeedstudio.com/Grove-4-Channel_SPDT_Relay/)
 
-Kabel ud Adapter
+Kabel und Adapter
 
 * [Grove - I2C Hub(6 Port)](https://wiki.seeedstudio.com/Grove-I2C-Hub-6Port/)
 * [Qwiic Cable - Grove Adapter](https://www.sparkfun.com/products/15109)
@@ -44,7 +44,18 @@ Um dieses Repository in MakeCode zu importieren.
 * **calliope-net/i2c-test**
 * füge sie auf der MakeCode Webseite ein (Strg-V) und klicke auf **Los geht's!**
 
-### Bedienung der 'Calliope-App': mit dem DIP Schalter wird eingestellt:
+### Funktion der 'Calliope-App'
+
+Im Test funktionierten 7 Module gleichzeitig. Nur das Modul 'Grove - 16x2 LCD' funktionierte nicht mit allen anderen zusammen und wurde weg gelassen.
+Es kann aber anstatt des großen 20x4 LCD Moduls verwendet werden.
+
+[Qwiic](https://www.sparkfun.com/qwiic) Module (das sind die roten mit den kleinen Steckern) sind immer für i2c und haben immer 3,3 V Logik. Damit passt jedes Qwiic Modul grundsätzlich zum Calliope. 
+Es sind keine Kabel beigelegt, deshalb den [Qwiic Cable - Grove Adapter](https://www.sparkfun.com/products/15109) mit bestellen.
+Die Software für die ersten vier Qwiic Module steht jetzt zur Verfügung. Weitere Erweiterungen werden folgen...
+
+
+
+
 
 * Schalter 1 OFF: LCD Display zeigt Datum und Uhrzeit an (dauerhaft jede Sekunde)
   * solange Knopf B gedrückt: zeigt den Zustand der 6 DIP Schalter binär am LCD Display an
