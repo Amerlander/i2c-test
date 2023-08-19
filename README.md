@@ -22,7 +22,6 @@ Kabel und Adapter
 * [Grove - I2C Hub(6 Port)](https://wiki.seeedstudio.com/Grove-I2C-Hub-6Port/)
 * [Qwiic Cable - Grove Adapter](https://www.sparkfun.com/products/15109)
 
-
 Alle i2c Module werden parallel am linken Grove Steckverbinder A0 angeschlossen. 
 Dazu kann ein [i2c-Hub](https://wiki.seeedstudio.com/Grove-I2C-Hub-6Port/) benutzt werden.
 i2c Module mit zwei Buchsen (z.B. Qwiic) können hintereinander gesteckt werden.
@@ -46,12 +45,13 @@ Um dieses Repository in MakeCode zu importieren.
 
 ### Funktion der 'Calliope-App'
 
-Im Test funktionierten 7 Module gleichzeitig. Nur das Modul 'Grove - 16x2 LCD' funktionierte nicht mit allen anderen zusammen und wurde weg gelassen.
+Im Test funktionierten 7 Module gleichzeitig. Nur das Modul 'Grove - 16x2 LCD' funktionierte nicht mit allen anderen zusammen und wurde deshalb weg gelassen.
 Es kann aber anstatt des großen 20x4 LCD Moduls verwendet werden.
 
 [Qwiic](https://www.sparkfun.com/qwiic) Module (das sind die roten mit den kleinen Steckern) sind immer für i2c und haben immer 3,3 V Logik. Damit passt jedes Qwiic Modul grundsätzlich zum Calliope. 
-Es sind keine Kabel beigelegt, deshalb den [Qwiic Cable - Grove Adapter](https://www.sparkfun.com/products/15109) mit bestellen.
-Die Software für die ersten vier Qwiic Module steht jetzt zur Verfügung. Weitere Erweiterungen werden folgen...
+Es sind keine Kabel beigelegt, deshalb den [Qwiic Cable - Grove Adapter](https://www.sparkfun.com/products/15109) mit bestellen. 
+Für mehrere Qwiic Module eignet sich das [Qwiic Cable Kit](https://www.mouser.de/ProductDetail/474-KIT-15081).
+Die Software für die ersten vier Qwiic Module steht jetzt zur Verfügung. Weitere Erweiterungen sind geplant...
 
 
 
