@@ -127,18 +127,18 @@ Dazu in der **JavaScript** Ansicht links unter dem Simulator im schwarzen Explor
 
 ![](explorer.png)
 
-### Updates
+#### Updates
 
 Um ein Update einer Erweiterung von GitHub zu laden, klicke in der JavaScript Ansicht links unter dem Simulator auf den schwarzen Explorer. Dort steht der Name der Erweiterung
 vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweiterung gelöscht, mit dem runden Pfeil nach einem Update gesucht. Danach steht dort eine Versionsnummer.
 
 ### Calliope-Apps, .hex-Dateien, Bildschirmfotos mit Blöcken
 
-* [Calliope-i2c-Test-App lädt alle Erweiterungen von github:calliope-net für i2c-Module von Grove und Qwiic.](https://calliope-net.github.io/i2c-test/)
+* [Calliope-i2c-Test-App lädt alle Erweiterungen für i2c-Module von Grove und Qwiic.](https://calliope-net.github.io/i2c-test/)
 * [Calliope-App mit vier i2c Modulen gleichzeitig, DIP-Schalter, Speicherkarte, LCD-Display, Uhr.](https://calliope-net.github.io/i2c-uhr-speicherkarte-dipschalter-lcd/)
 * [Calliope-App Quarz-Uhr anzeigen, stellen mit Knopf A/B, Korrektur-Register, Binär-Uhr.](https://calliope-net.github.io/i2c-uhr-stellen/)
 * [Calliope-App Dateien der Speicherkarte anzeigen, lesen, schreiben, löschen, mit Knopf A/B.](https://calliope-net.github.io/i2c-speicherkarte-verwalten/)
-* [Calliope-App mit Keypad-12 Button und IO-Modul eine 7-Segment-Anzeige steuern, Hardware-Interrupt.](https://calliope-net.github.io/i2c-keypad-gpio-7segment/)
+* [Calliope-App mit Keypad und IO-Modul eine 7-Segment-Anzeige steuern, Hardware-Interrupt.](https://calliope-net.github.io/i2c-keypad-gpio-7segment/)
 
 ### Material
 
@@ -146,6 +146,8 @@ vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweit
 * [i2c-Module und Bezugsquellen (Hardware)](https://calliope-net.github.io/i2c-test#bezugsquellen)
 
 ### Bezugsquellen
+
+
 
 * [Grove - I2C Hub (6 Port)](https://www.mouser.de/ProductDetail/713-103020272)
 * [Grove - 6-Position DIP Switch](https://www.mouser.de/ProductDetail/713-111020043)
@@ -155,8 +157,14 @@ vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweit
 * [Grove - 16 x 2 LCD (Black on Yellow)](https://www.mouser.de/ProductDetail/713-104020113)
 * [Grove - LCD RGB Backlight](https://www.mouser.de/ProductDetail/713-104030001)
 * [Grove - High Precision RTC](https://www.mouser.de/ProductDetail/713-102020083)
+
+
+
 * [SparkFun Qwiic OpenLog](https://www.mouser.de/ProductDetail/474-DEV-15164)
 * [SparkFun Qwiic OpenLog](https://www.digikey.de/de/products/detail/sparkfun-electronics/DEV-15164/9920435)
+
+#### Kabel und Adapter
+
 * [Qwiic Cable - Grove Adapter (100mm)](https://www.mouser.de/ProductDetail/474-PRT-15109)
 * [Qwiic Adapter](https://www.mouser.de/ProductDetail/474-DEV-14495)
 
