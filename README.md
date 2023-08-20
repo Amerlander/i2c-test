@@ -1,7 +1,7 @@
 
 > Diese Seite bei [https://calliope-net.github.io/i2c-test/](https://calliope-net.github.io/i2c-test/) öffnen.
 
-> Diese Calliope-App in MakeCode [https://makecode.calliope.cc/_RFD2qFYJe2Ps](https://makecode.calliope.cc/_RFD2qFYJe2Ps) öffnen.
+> Dieses Beispiel in MakeCode [https://makecode.calliope.cc/_RFD2qFYJe2Ps](https://makecode.calliope.cc/_RFD2qFYJe2Ps) öffnen.
 
 ![](mini-i2c-test.jpg)
 ![](mini-i2c-test.png)
@@ -28,12 +28,12 @@ i2c Module mit zwei Buchsen (z.B. Qwiic) können hintereinander gesteckt werden.
 
 Für die Stromversorgung sollte Calliope über USB Kabel (an Computer oder Powerbank) angeschlossen sein.
 
-### .hex-Datei direkt auf Calliope laden, oder in MakeCode importieren.
+#### .hex-Datei direkt auf Calliope laden, oder in MakeCode importieren.
 
 * [mini-i2c-test.hex](mini-i2c-test.hex)
 * [Schnappschuss (Bildschirmfoto mit den Blöcken)](mini-i2c-test.png)
 
-### Dieses Projekt von GitHub importieren, bearbeiten, mit Calliope testen.
+#### Dieses Projekt von GitHub importieren, bearbeiten, mit Calliope testen.
 
 Um dieses Repository in MakeCode zu importieren.
 
@@ -99,8 +99,6 @@ Die Erweiterungen sind **nicht** auf Calliope 2.x eingestellt, sollten auch mit 
 
 ### Erweiterungen
 
-Alle Erweiterungen (Software) werden von der 'Calliope-i2c-Test-App' automatisch von GitHub geladen.
-
 Die Erweiterungen **bit** und **i2c** (die mit 3 Buchstaben) enthalten nur zusätzliche Blöcke zur Formatierung von Text und Zahlen, Logik und zur Programmierung beliebiger i2c Module ohne JavaScript.
 Diese Erweiterungen werden von den folgenden Erweiterungen für i2c Hardware-Module **nicht** benötigt. Jede Erweiterung kann von GitHub über **calliope-net/name** allein geladen werden.
 
@@ -132,18 +130,15 @@ Dazu in der **JavaScript** Ansicht links unter dem Simulator im schwarzen Explor
 Um ein Update einer Erweiterung von GitHub zu laden, klicke in der JavaScript Ansicht links unter dem Simulator auf den schwarzen Explorer. Dort steht der Name der Erweiterung
 vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweiterung gelöscht, mit dem runden Pfeil nach einem Update gesucht. Danach steht dort eine Versionsnummer.
 
-### Calliope-Apps, .hex-Dateien, Bildschirmfotos mit Blöcken
+### Programmierbeispiele
+
+#### Calliope-Apps, .hex-Dateien, Bildschirmfotos mit Blöcken
 
 * [Calliope-i2c-Test-App lädt alle Erweiterungen für i2c-Module von Grove und Qwiic.](https://calliope-net.github.io/i2c-test/)
 * [Calliope-App mit vier i2c Modulen gleichzeitig, DIP-Schalter, Speicherkarte, LCD-Display, Uhr.](https://calliope-net.github.io/i2c-uhr-speicherkarte-dipschalter-lcd/)
 * [Calliope-App Quarz-Uhr anzeigen, stellen mit Knopf A/B, Korrektur-Register, Binär-Uhr.](https://calliope-net.github.io/i2c-uhr-stellen/)
 * [Calliope-App Dateien der Speicherkarte anzeigen, lesen, schreiben, löschen, mit Knopf A/B.](https://calliope-net.github.io/i2c-speicherkarte-verwalten/)
 * [Calliope-App mit Keypad und IO-Modul eine 7-Segment-Anzeige steuern, Hardware-Interrupt.](https://calliope-net.github.io/i2c-keypad-gpio-7segment/)
-
-### Material
-
-* [i2c-Erweiterungen für MakeCode (Software)](https://calliope-net.github.io/i2c-test#erweiterungen)
-* [i2c-Module und Bezugsquellen (Hardware)](https://calliope-net.github.io/i2c-test#bezugsquellen)
 
 ### Bezugsquellen
 
@@ -174,8 +169,6 @@ vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweit
 * [SparkFun Qwiic EEPROM Breakout - 512Kbit](https://www.digikey.de/de/products/detail/sparkfun-electronics/COM-18355/14825470)
 * [SparkFun Qwiic Joystick](https://www.digikey.de/de/products/detail/sparkfun-electronics/COM-15168/9953917)
 * [SparkFun Qwiic Motor Driver](https://www.digikey.de/de/products/detail/sparkfun-electronics/ROB-15451/10483247)
-
-
 
 ##### Grove Kabel und i2c Hub
 
