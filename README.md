@@ -157,6 +157,8 @@ vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweit
 * [Grove - 6-Position DIP Switch](https://www.mouser.de/ProductDetail/713-111020043) zum Produkt-Bild vergrößern klicken
   * [Grove - 5-Way Switch](https://www.mouser.de/ProductDetail/713-111020048)
 * [Grove - 4-Channel SPDT Relay](https://www.mouser.de/ProductDetail/713-103020133)
+* geplant:
+* [GRAVITY: I2C DIGITAL WATTMETER](https://www.digikey.de/de/products/detail/dfrobot/SEN0291/10279750)
 
 ##### Qwiic [SparkFun Qwiic - Making I2C as easy as possible.](https://www.sparkfun.com/categories/399)
 
@@ -166,7 +168,10 @@ vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweit
 * [SparkFun Qwiic Keypad - 12 Button](https://www.mouser.de/ProductDetail/474-COM-15290)
   * [QWIIC KEYPAD - 12 BUTTON](https://www.digikey.de/de/products/detail/sparkfun-electronics/COM-15290/10130913)
 * [SparkFun Qwiic GPIO](https://www.mouser.de/ProductDetail/474-DEV-17047)
-* 
+* geplant:
+* [QWIIC CAT24C512 EEPROM BREAKOUT](https://www.digikey.de/de/products/detail/sparkfun-electronics/COM-18355/14825470)
+* [QWIIC JOYSTICK BOARD](https://www.digikey.de/de/products/detail/sparkfun-electronics/COM-15168/9953917)
+* [QWIIC MOTOR DRIVER](https://www.digikey.de/de/products/detail/sparkfun-electronics/ROB-15451/10483247)
 
 
 
