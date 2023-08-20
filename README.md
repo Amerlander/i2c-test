@@ -119,17 +119,16 @@ Diese Erweiterungen werden von den folgenden Erweiterungen für i2c Hardware-Mod
 
 ![](blocks.png)
 
+### Updates
+
+Um ein Update einer Erweiterung von GitHub zu laden, klicke in der JavaScript Ansicht links unter dem Simulator auf den schwarzen Explorer. Dort steht der Name der Erweiterung
+vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweiterung gelöscht, mit dem runden Pfeil nach einem Update gesucht. Danach steht dort eine Versionsnummer.
+![](explorer.png)
+
 #### Erweiterungen aus vorhendenen Projekten löschen
 
 Für eigene Entwicklungen auf Grundlage der Beispiel-Apps, oder wenn i2c Module fehlen, können nicht benötigte Erweiterungen gelöscht werden.
 Dazu in der **JavaScript** Ansicht links unter dem Simulator im schwarzen Explorer auf den Mülleimer klicken.
-
-![](explorer.png)
-
-#### Updates
-
-Um ein Update einer Erweiterung von GitHub zu laden, klicke in der JavaScript Ansicht links unter dem Simulator auf den schwarzen Explorer. Dort steht der Name der Erweiterung
-vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweiterung gelöscht, mit dem runden Pfeil nach einem Update gesucht. Danach steht dort eine Versionsnummer.
 
 ### Programmierbeispiele
 
