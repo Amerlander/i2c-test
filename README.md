@@ -147,7 +147,7 @@ vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweit
 
 ### Bezugsquellen
 
-##### Grove [seeed studio](https://wiki.seeedstudio.com/Grove_System/)
+##### Grove - [seeed studio](https://wiki.seeedstudio.com/Grove_System/)
 
 * [Grove - High Precision RTC](https://www.mouser.de/ProductDetail/713-102020083)
 * [Grove - 16 x 2 LCD (White on Blue)](https://www.mouser.de/ProductDetail/713-104020111)
@@ -160,7 +160,7 @@ vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweit
 * i2c Erweiterung für Calliope geplant:
 * [Gravity: I2C Digital Wattmeter](https://www.digikey.de/de/products/detail/dfrobot/SEN0291/10279750)
 
-##### Qwiic [SparkFun Qwiic - Making I2C as easy as possible.](https://www.sparkfun.com/categories/399)
+##### SparkFun Qwiic - [Making I2C as easy as possible.](https://www.sparkfun.com/categories/399)
 
 * [SparkFun 20x4 SerLCD - RGB Backlight (Qwiic)](https://www.mouser.de/ProductDetail/474-LCD-16398)
   * [SparkFun 20x4 SerLCD - RGB Backlight (Qwiic)](https://www.digikey.de/de/products/detail/sparkfun-electronics/LCD-16398/13171324)
