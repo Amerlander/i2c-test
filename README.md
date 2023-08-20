@@ -6,7 +6,7 @@ Dieses Beispiel in MakeCode [https://makecode.calliope.cc/_RFD2qFYJe2Ps](https:/
 ![](mini-i2c-test.jpg)
 ![](mini-i2c-test.png)
 
-### i2c Module an Calliope anstecken
+### i2c Module an Calliope anstecken.
 
 * [Grove - High Precision RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC/)
 * [Grove - 16x2 LCD](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series/)
@@ -44,7 +44,7 @@ Um dieses Repository in MakeCode zu importieren.
 * **calliope-net/i2c-test**
 * füge sie auf der MakeCode Webseite ein (Strg-V) und klicke auf **Los geht's!**
 
-### Beschreibung der 'Calliope-i2c-Test-App' und Hardware
+### Beschreibung der 'Calliope-i2c-Test-App' und Hardware.
 
 Im Test funktionierten 7 Module gleichzeitig. Nur das Modul 'Grove - 16x2 LCD' funktionierte nicht mit allen anderen zusammen und wurde deshalb weg gelassen.
 Es kann aber anstatt des großen 20x4 LCD Moduls verwendet werden.
