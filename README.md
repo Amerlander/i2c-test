@@ -156,11 +156,19 @@ vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweit
   * [Grove - LCD RGB Backlight](https://www.mouser.de/ProductDetail/713-104030001)
 * [Grove - 6-Position DIP Switch](https://www.mouser.de/ProductDetail/713-111020043) zum Produkt-Bild vergrößern klicken
   * [Grove - 5-Way Switch](https://www.mouser.de/ProductDetail/713-111020048)
+* [Grove - 4-Channel SPDT Relay](https://www.mouser.de/ProductDetail/713-103020133)
 
 ##### Qwiic [SparkFun Qwiic - Making I2C as easy as possible.](https://www.sparkfun.com/categories/399)
 
+* [SparkFun 20x4 SerLCD - RGB Backlight (Qwiic)](https://www.mouser.de/ProductDetail/474-LCD-16398)
 * [SparkFun Qwiic OpenLog](https://www.digikey.de/de/products/detail/sparkfun-electronics/DEV-15164/9920435)
   * [SparkFun Qwiic OpenLog](https://www.mouser.de/ProductDetail/474-DEV-15164)
+* [SparkFun Qwiic Keypad - 12 Button](https://www.mouser.de/ProductDetail/474-COM-15290)
+  * [QWIIC KEYPAD - 12 BUTTON](https://www.digikey.de/de/products/detail/sparkfun-electronics/COM-15290/10130913)
+* [SparkFun Qwiic GPIO](https://www.mouser.de/ProductDetail/474-DEV-17047)
+* 
+
+
 
 ##### Grove Kabel und i2c Hub
 
@@ -171,6 +179,7 @@ vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweit
 * [Grove-Kabel 100 cm](https://www.conrad.de/de/p/m5-stack-a034-d-kabel-1-st-2306328.html)
 * [Grove-Kabel 200 cm](https://www.conrad.de/de/p/m5-stack-a034-e-kabel-1-st-passend-fuer-entwicklungskits-arduino-2306329.html)
 * [Grove - I2C Hub (4 Port)](https://www.mouser.de/ProductDetail/713-103020006)
+  * [GROVE I2C HUB](https://www.digikey.de/de/products/detail/seeed-technology-co-ltd/103020006/5487896)
 * [Grove - I2C Hub (6 Port)](https://www.mouser.de/ProductDetail/713-103020272)
 
 ##### Qwiic i2c Kabel und Adapter
