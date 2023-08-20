@@ -166,7 +166,7 @@ vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweit
 * [SparkFun Qwiic OpenLog](https://www.digikey.de/de/products/detail/sparkfun-electronics/DEV-15164/9920435)
   * [SparkFun Qwiic OpenLog](https://www.mouser.de/ProductDetail/474-DEV-15164)
 * [SparkFun Qwiic Keypad - 12 Button](https://www.mouser.de/ProductDetail/474-COM-15290)
-  * [QWIIC KEYPAD - 12 BUTTON](https://www.digikey.de/de/products/detail/sparkfun-electronics/COM-15290/10130913)
+  * [SparkFun Qwiic Keypad - 12 Button](https://www.digikey.de/de/products/detail/sparkfun-electronics/COM-15290/10130913)
 * [SparkFun Qwiic GPIO](https://www.mouser.de/ProductDetail/474-DEV-17047)
 * i2c Erweiterung für Calliope geplant:
 * [SparkFun Qwiic EEPROM Breakout - 512Kbit](https://www.digikey.de/de/products/detail/sparkfun-electronics/COM-18355/14825470)
@@ -184,7 +184,7 @@ vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweit
 * [Grove-Kabel 100 cm](https://www.conrad.de/de/p/m5-stack-a034-d-kabel-1-st-2306328.html)
 * [Grove-Kabel 200 cm](https://www.conrad.de/de/p/m5-stack-a034-e-kabel-1-st-passend-fuer-entwicklungskits-arduino-2306329.html)
 * [Grove - I2C Hub (4 Port)](https://www.mouser.de/ProductDetail/713-103020006)
-  * [GROVE I2C HUB](https://www.digikey.de/de/products/detail/seeed-technology-co-ltd/103020006/5487896)
+  * [Grove - I2C Hub (4 Port)](https://www.digikey.de/de/products/detail/seeed-technology-co-ltd/103020006/5487896)
 * [Grove - I2C Hub (6 Port)](https://www.mouser.de/ProductDetail/713-103020272)
 
 ##### Qwiic i2c Kabel und Adapter
@@ -193,7 +193,7 @@ vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweit
 * [Qwiic Cable Kit](https://www.mouser.de/ProductDetail/474-KIT-15081)
 * [Qwiic Adapter](https://www.mouser.de/ProductDetail/474-DEV-14495)
 * [Qwiic MultiPort](https://www.mouser.de/ProductDetail/474-BOB-18012)
-  * [SPARKFUN QWIIC MULTIPORT](https://www.digikey.de/de/products/detail/sparkfun-electronics/BOB-18012/13998109)
+  * [Qwiic MultiPort](https://www.digikey.de/de/products/detail/sparkfun-electronics/BOB-18012/13998109)
 
 #### Metadaten (verwendet für Suche, Rendering)
 
