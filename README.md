@@ -121,8 +121,11 @@ Diese Erweiterungen werden von den folgenden Erweiterungen für i2c Hardware-Mod
 
 ### Updates
 
-Um ein Update einer Erweiterung von GitHub zu laden, klicke in der JavaScript Ansicht links unter dem Simulator auf den schwarzen Explorer. Dort steht der Name der Erweiterung
-vor einem Mülleimer- und einem Pfeil-Symbol. Mit dem Mülleimer wird die Erweiterung gelöscht, mit dem runden Pfeil nach einem Update gesucht. Danach steht dort eine Versionsnummer.
+In der **JavaScript** Ansicht links unter dem Simulator im schwarzen Explorer sind alle von dem Projekt geladenen Erweiterungen zu finden.
+Um ein Update einer Erweiterung von GitHub zu laden, muss das Symbol mit dem runden Pfeil angeklickt werden.
+Dabei kann es passieren, dass die Erweiterung nicht mehr mit dem eigenen Programm kompatibel ist und das Programm angepasst werden muss.
+Deshalb werden Updates auch nicht automatisch geladen.
+
 ![](explorer.png)
 
 #### Erweiterungen aus vorhendenen Projekten löschen
@@ -139,6 +142,8 @@ Dazu in der **JavaScript** Ansicht links unter dem Simulator im schwarzen Explor
 * [Calliope-App Quarz-Uhr anzeigen, stellen mit Knopf A/B, Korrektur-Register, Binär-Uhr.](https://calliope-net.github.io/i2c-uhr-stellen/)
 * [Calliope-App Dateien der Speicherkarte anzeigen, lesen, schreiben, löschen, mit Knopf A/B.](https://calliope-net.github.io/i2c-speicherkarte-verwalten/)
 * [Calliope-App mit Keypad und IO-Modul eine 7-Segment-Anzeige steuern, Hardware-Interrupt.](https://calliope-net.github.io/i2c-keypad-gpio-7segment/)
+
+> GitHub-Profil calliope-net: [https://github.com/calliope-net](https://github.com/calliope-net)
 
 ### Bezugsquellen
 
