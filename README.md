@@ -158,7 +158,7 @@ Dazu in der **JavaScript** Ansicht links unter dem Simulator im schwarzen Explor
 
 ### Bezugsquellen
 
-##### Grove - [seeed studio](https://wiki.seeedstudio.com/Grove_System/)
+##### seeed studio - [Grove](https://wiki.seeedstudio.com/Grove_System/), DFRobot - [Gravity](https://www.dfrobot.com/gravity.html)
 
 * [Grove - High Precision RTC](https://www.mouser.de/ProductDetail/713-102020083)
 * [Grove - 16 x 2 LCD (White on Blue)](https://www.mouser.de/ProductDetail/713-104020111)
@@ -170,7 +170,7 @@ Dazu in der **JavaScript** Ansicht links unter dem Simulator im schwarzen Explor
 * [Grove - 4-Channel SPDT Relay](https://www.mouser.de/ProductDetail/713-103020133)
 * [Gravity: I2C Digital Wattmeter](https://www.digikey.de/de/products/detail/dfrobot/SEN0291/10279750)
 
-##### SparkFun Qwiic - [Making I2C as easy as possible.](https://www.sparkfun.com/categories/399)
+##### SparkFun - [Qwiic](https://www.sparkfun.com/categories/399) - Making I2C as easy as possible.
 
 * [SparkFun 20x4 SerLCD - RGB Backlight (Qwiic)](https://www.mouser.de/ProductDetail/474-LCD-16398)
   * [SparkFun 20x4 SerLCD - RGB Backlight (Qwiic)](https://www.digikey.de/de/products/detail/sparkfun-electronics/LCD-16398/13171324)
