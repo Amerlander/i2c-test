@@ -196,7 +196,7 @@ Dazu in der **JavaScript** Ansicht links unter dem Simulator im schwarzen Explor
   * [Grove - I2C Hub (4 Port)](https://www.digikey.de/de/products/detail/seeed-technology-co-ltd/103020006/5487896)
 * [Grove - I2C Hub (6 Port)](https://www.mouser.de/ProductDetail/713-103020272)
 
-##### Qwiic i2c Kabel und Adapter
+##### Qwiic i2c Kabel und Adapter - [Qwiic Connect System](https://www.sparkfun.com/categories/tags/qwiic-cables)
 
 * [Qwiic Cable - Grove Adapter (100mm)](https://www.mouser.de/ProductDetail/474-PRT-15109)
 * [Qwiic Cable Kit](https://www.mouser.de/ProductDetail/474-KIT-15081)
