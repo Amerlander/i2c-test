@@ -46,6 +46,9 @@ Um dieses Repository in MakeCode zu importieren.
 
 ### Beschreibung der 'Calliope-i2c-Test-App' und Hardware.
 
+> Update: Im Sep 2023 sind 4 neue i2c-Erweiterungen dazu gekommen: EEPROM, Joystick, Motor, Wattmeter.
+> Die Beschreibung ist vom Stand August.
+
 Im Test funktionierten 7 Module gleichzeitig. Nur das Modul 'Grove - 16x2 LCD' funktionierte nicht mit allen anderen zusammen und wurde deshalb weg gelassen.
 Es kann aber anstatt des großen 20x4 LCD Moduls verwendet werden.
 
@@ -111,11 +114,15 @@ Diese Erweiterungen werden von den folgenden Erweiterungen für i2c Hardware-Mod
 * [https://github.com/calliope-net/rtc-pcf85063tp](https://calliope-net.github.io/rtc-pcf85063tp/)
 * [https://github.com/calliope-net/lcd-16x2rgb](https://calliope-net.github.io/lcd-16x2rgb/)
 * [https://github.com/calliope-net/lcd-20x4](https://calliope-net.github.io/lcd-20x4/)
+* [https://github.com/calliope-net/eeprom](https://calliope-net.github.io/eeprom/)
 * [https://github.com/calliope-net/log-qwiicopenlog](https://calliope-net.github.io/log-qwiicopenlog/)
 * [https://github.com/calliope-net/key-qwiickeypad](https://calliope-net.github.io/key-qwiickeypad/)
 * [https://github.com/calliope-net/8io-qwiicgpio](https://calliope-net.github.io/8io-qwiicgpio/)
+* [https://github.com/calliope-net/joystick](https://calliope-net.github.io/joystick/)
+* [https://github.com/calliope-net/motor](https://calliope-net.github.io/motor/)
 * [https://github.com/calliope-net/dip-switch](https://calliope-net.github.io/dip-switch/)
 * [https://github.com/calliope-net/spdt-relay](https://calliope-net.github.io/spdt-relay/)
+* [https://github.com/calliope-net/wattmeter](https://calliope-net.github.io/wattmeter/)
 
 ![](blocks.png)
 
