@@ -11,11 +11,15 @@ Dieses Beispiel in MakeCode [https://makecode.calliope.cc/_RFD2qFYJe2Ps](https:/
 * [Grove - High Precision RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC/)
 * [Grove - 16x2 LCD](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series/)
 * [SparkFun 20x4 SerLCD - RGB Backlight (Qwiic)](https://www.sparkfun.com/products/16398)
+* [SparkFun Qwiic EEPROM Breakout - 512Kbit](https://www.sparkfun.com/products/18355)
 * [SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164)
 * [SparkFun Qwiic Keypad - 12 Button](https://www.sparkfun.com/products/15290)
 * [SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
+* [SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168)
+* [SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451)
 * [Grove - 6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch/) / [Grove - 5-Way Switch](https://wiki.seeedstudio.com/Grove-5-Way_Switch/)
 * [Grove - 4-Channel SPDT Relay](https://wiki.seeedstudio.com/Grove-4-Channel_SPDT_Relay/)
+* [Gravity: I2C Digital Wattmeter](https://www.dfrobot.com/product-1827.html)
 
 Kabel und Adapter
 
