@@ -9,6 +9,7 @@ Dieses Beispiel in MakeCode [https://makecode.calliope.cc/_RFD2qFYJe2Ps](https:/
 ### i2c Module an Calliope anstecken.
 
 * [Grove - High Precision RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC/)
+* [Grove - OLED Yellow&Blue Display 0.96(SSD1315)](https://wiki.seeedstudio.com/Grove-OLED-Yellow&Blue-Display-0.96-SSD1315_V1.0/) / [Grove - OLED Display 0.96 inch](https://wiki.seeedstudio.com/Grove-OLED_Display_0.96inch/)
 * [Grove - 16x2 LCD](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series/)
 * [SparkFun 20x4 SerLCD - RGB Backlight (Qwiic)](https://www.sparkfun.com/products/16398)
 * [SparkFun Qwiic EEPROM Breakout - 512Kbit](https://www.sparkfun.com/products/18355)
@@ -116,6 +117,8 @@ Diese Erweiterungen werden von den folgenden Erweiterungen für i2c Hardware-Mod
 #### Erweiterungen für i2c Hardware-Module
 
 * [https://github.com/calliope-net/rtc-pcf85063tp](https://calliope-net.github.io/rtc-pcf85063tp/)
+* [https://github.com/calliope-net/oled-16x8](https://calliope-net.github.io/oled-16x8/)
+* [https://github.com/calliope-net/oled-eeprom](https://calliope-net.github.io/oled-eeprom/)
 * [https://github.com/calliope-net/lcd-16x2rgb](https://calliope-net.github.io/lcd-16x2rgb/)
 * [https://github.com/calliope-net/lcd-20x4](https://calliope-net.github.io/lcd-20x4/)
 * [https://github.com/calliope-net/eeprom](https://calliope-net.github.io/eeprom/)
