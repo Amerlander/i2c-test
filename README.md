@@ -3,8 +3,12 @@ Diese Seite bei [https://calliope-net.github.io/i2c-test/](https://calliope-net.
 
 Dieses Beispiel in MakeCode [https://makecode.calliope.cc/_RFD2qFYJe2Ps](https://makecode.calliope.cc/_RFD2qFYJe2Ps) öffnen.
 
+![](DSC09940-1440.jpg)
+
+<!--
 ![](mini-i2c-test.jpg)
 ![](mini-i2c-test.png)
+-->
 
 ### Liste der i2c Module für Calliope:
 
