@@ -6,7 +6,7 @@ Dieses Beispiel in MakeCode [https://makecode.calliope.cc/_RFD2qFYJe2Ps](https:/
 ![](mini-i2c-test.jpg)
 ![](mini-i2c-test.png)
 
-### i2c Module an Calliope anstecken.
+### Liste der i2c Module für Calliope:
 
 * [Grove - High Precision RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC/)
 * [Grove - OLED Yellow&Blue Display 0.96(SSD1315)](https://wiki.seeedstudio.com/Grove-OLED-Yellow&Blue-Display-0.96-SSD1315_V1.0/) / [Grove - OLED Display 0.96 inch](https://wiki.seeedstudio.com/Grove-OLED_Display_0.96inch/)
@@ -108,8 +108,10 @@ Die Erweiterungen sind **nicht** auf Calliope 2.x eingestellt, sollten auch mit 
 
 ### Erweiterungen
 
-Die Erweiterungen **bit** und **i2c** (die mit 3 Buchstaben) enthalten nur zusätzliche Blöcke zur Formatierung von Text und Zahlen, Logik und zur Programmierung beliebiger i2c Module ohne JavaScript.
-Diese Erweiterungen werden von den folgenden Erweiterungen für i2c Hardware-Module **nicht** benötigt. Jede Erweiterung kann von GitHub über **calliope-net/name** allein geladen werden.
+Die Erweiterungen **bit** und **i2c** (die mit 3 Buchstaben) enthalten nur zusätzliche Blöcke zur Formatierung von Text und Zahlen, 
+Logik und zur Programmierung beliebiger i2c Module ohne JavaScript.
+Diese Erweiterungen werden von den folgenden Erweiterungen für i2c Hardware-Module **nicht** benötigt. Ausnahmen sind in der Liste angegeben.
+Jede Erweiterung kann von GitHub über **calliope-net/name** allein geladen werden.
 
 * [https://github.com/calliope-net/bit](https://calliope-net.github.io/bit/)
 * [https://github.com/calliope-net/i2c](https://calliope-net.github.io/i2c/)
@@ -118,7 +120,7 @@ Diese Erweiterungen werden von den folgenden Erweiterungen für i2c Hardware-Mod
 
 * [https://github.com/calliope-net/rtc-pcf85063tp](https://calliope-net.github.io/rtc-pcf85063tp/)
 * [https://github.com/calliope-net/oled-16x8](https://calliope-net.github.io/oled-16x8/)
-* [https://github.com/calliope-net/oled-eeprom](https://calliope-net.github.io/oled-eeprom/)
+* [https://github.com/calliope-net/oled-eeprom](https://calliope-net.github.io/oled-eeprom/) + [calliope-net/bit](https://calliope-net.github.io/bit/)
 * [https://github.com/calliope-net/lcd-16x2rgb](https://calliope-net.github.io/lcd-16x2rgb/)
 * [https://github.com/calliope-net/lcd-20x4](https://calliope-net.github.io/lcd-20x4/)
 * [https://github.com/calliope-net/eeprom](https://calliope-net.github.io/eeprom/)
@@ -164,6 +166,7 @@ Dazu in der **JavaScript** Ansicht links unter dem Simulator im schwarzen Explor
 ##### seeed studio - [Grove](https://wiki.seeedstudio.com/Grove_System/), DFRobot - [Gravity](https://www.dfrobot.com/gravity.html)
 
 * [Grove - High Precision RTC](https://www.mouser.de/ProductDetail/713-102020083)
+* [Grove - OLED Yellow&Blue Display 0.96 (SSD1315) - SPI/IIC -3.3V/5V](https://www.mouser.de/ProductDetail/713-104020249)
 * [Grove - 16 x 2 LCD (White on Blue)](https://www.mouser.de/ProductDetail/713-104020111)
   * [Grove - 16 x 2 LCD (Black on Red)](https://www.mouser.de/ProductDetail/713-104020112)
   * [Grove - 16 x 2 LCD (Black on Yellow)](https://www.mouser.de/ProductDetail/713-104020113)
