@@ -1,7 +1,12 @@
 
 Diese Seite bei [https://calliope-net.github.io/i2c-test/](https://calliope-net.github.io/i2c-test/) öffnen.
 
-Dieses Beispiel in MakeCode [https://makecode.calliope.cc/_RFD2qFYJe2Ps](https://makecode.calliope.cc/_RFD2qFYJe2Ps) öffnen.
+<!--Dieses Beispiel in MakeCode [https://makecode.calliope.cc/_RFD2qFYJe2Ps](https://makecode.calliope.cc/_RFD2qFYJe2Ps) öffnen.-->
+
+Das Bild zeigt 15 i2c Module, die technisch alle gleichzeitig an den i2c Bus angeschlossen werden können. Mit einem Stecker an Calliope A0.
+Getestet wurde mit 7 Modulen gleichzeitig und es hat funktioniert. Für alle 15 Module können aber hier die Erweiterungen herunter geladen werden,
+die - genau wie die Module - beliebig miteinander kombiniert werden können. Und es ist kein teures Hobby. Über die Bezugsquellen unten 
+kosten viele Module nur um 5 € und das große Display 25 €.
 
 ![](DSC09940-1440.jpg)
 
