@@ -8,6 +8,9 @@ Getestet wurde mit 7 Modulen gleichzeitig und es hat funktioniert. Für alle 15 
 die - genau wie die Module - beliebig miteinander kombiniert werden können. Und es ist kein teures Hobby. Über die Bezugsquellen unten 
 kosten viele Module nur um 5 € und das große Display 25 €.
 
+Wenn die Stromversorgung des Calliope über USB Kabel erfolgt, reicht das für die angeschlossenen Module (außer den 4 Relais) aus.
+Die roten Qwiic Module dürfen auch nur mit 3,3V Logik betrieben werden. Im Dauerbetrieb über Tag und Nacht ist noch kein Projekt abgestürzt.
+
 ![](DSC09940-1440.jpg)
 
 <!--
