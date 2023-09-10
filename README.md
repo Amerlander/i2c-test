@@ -156,7 +156,7 @@ Deshalb werden Updates auch nicht automatisch geladen.
 
 ![](explorer.png)
 
-#### Erweiterungen aus vorhendenen Projekten löschen
+#### Erweiterungen aus vorhandenen Projekten löschen
 
 Für eigene Entwicklungen auf Grundlage der Beispiel-Apps, oder wenn i2c Module fehlen, können nicht benötigte Erweiterungen gelöscht werden.
 Dazu in der **JavaScript** Ansicht links unter dem Simulator im schwarzen Explorer auf den Mülleimer klicken.
