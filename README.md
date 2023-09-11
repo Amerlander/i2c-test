@@ -29,8 +29,7 @@ Für die Stromversorgung sollte Calliope über USB Kabel (an Computer oder Power
 * [mini-i2c-test.hex](mini-i2c-test.hex)
 * [Schnappschuss (Bildschirmfoto mit den Blöcken)](mini-i2c-test.png)
 
-
-Dieses Beispiel in MakeCode [https://makecode.calliope.cc/_RFD2qFYJe2Ps](https://makecode.calliope.cc/_RFD2qFYJe2Ps) öffnen.
+Dieses Beispiel [in MakeCode öffnen](https://makecode.calliope.cc/_LayTV7RoDT6M).
 
 ![](mini-i2c-test.png)
 
