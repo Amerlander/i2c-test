@@ -46,7 +46,7 @@ Um dieses Repository in MakeCode zu importieren.
 * **calliope-net/i2c-test**
 * füge sie auf der MakeCode Webseite ein (Strg-V) und klicke auf **Los geht's!**
 
-### Beschreibung der 'Calliope-i2c-Test-App' und Hardware.
+### Beschreibung der Calliope-App 'i2c-test' und Hardware.
 
 Im Test funktionierten 7 Module gleichzeitig. Nur das Modul 'Grove - 16x2 LCD' funktionierte nicht mit allen anderen zusammen und wurde deshalb weg gelassen.
 Es kann aber anstatt des großen 20x4 LCD Moduls verwendet werden.
