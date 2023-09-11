@@ -35,38 +35,6 @@ Dieses Beispiel in MakeCode [https://makecode.calliope.cc/_RFD2qFYJe2Ps](https:/
 ![](mini-i2c-test.png)
 
 
-### Liste der i2c Module für Calliope:
-
-* [Grove - High Precision RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC/)
-* [Grove - OLED Yellow&Blue Display 0.96(SSD1315)](https://wiki.seeedstudio.com/Grove-OLED-Yellow&Blue-Display-0.96-SSD1315_V1.0/) / [Grove - OLED Display 0.96 inch](https://wiki.seeedstudio.com/Grove-OLED_Display_0.96inch/)
-* [Grove - 16x2 LCD](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series/)
-* [SparkFun 20x4 SerLCD - RGB Backlight (Qwiic)](https://www.sparkfun.com/products/16398)
-* [SparkFun Qwiic EEPROM Breakout - 512Kbit](https://www.sparkfun.com/products/18355)
-* [SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164)
-* [SparkFun Qwiic Keypad - 12 Button](https://www.sparkfun.com/products/15290)
-* [SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
-* [SparkFun Qwiic Joystick](https://www.sparkfun.com/products/15168)
-* [SparkFun Qwiic Motor Driver](https://www.sparkfun.com/products/15451)
-* [Grove - 6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch/) / [Grove - 5-Way Switch](https://wiki.seeedstudio.com/Grove-5-Way_Switch/)
-* [Grove - 4-Channel SPDT Relay](https://wiki.seeedstudio.com/Grove-4-Channel_SPDT_Relay/)
-* [Gravity: I2C Digital Wattmeter](https://www.dfrobot.com/product-1827.html)
-
-Kabel und Adapter
-
-* [Grove - I2C Hub(6 Port)](https://wiki.seeedstudio.com/Grove-I2C-Hub-6Port/)
-* [Qwiic Cable - Grove Adapter](https://www.sparkfun.com/products/15109)
-* [Qwiic Cable Kit](https://www.sparkfun.com/products/15081)
-
-Alle i2c Module werden parallel am linken Grove Steckverbinder A0 angeschlossen. 
-Dazu kann ein [i2c-Hub](https://wiki.seeedstudio.com/Grove-I2C-Hub-6Port/) benutzt werden.
-i2c Module mit zwei Buchsen (z.B. Qwiic) können hintereinander gesteckt werden.
-
-Für die Stromversorgung sollte Calliope über USB Kabel (an Computer oder Powerbank) angeschlossen sein.
-
-#### .hex-Datei direkt auf Calliope laden, oder in MakeCode importieren.
-
-* [mini-i2c-test.hex](mini-i2c-test.hex)
-* [Schnappschuss (Bildschirmfoto mit den Blöcken)](mini-i2c-test.png)
 
 #### Dieses Projekt von GitHub importieren, bearbeiten, mit Calliope testen.
 
@@ -79,9 +47,6 @@ Um dieses Repository in MakeCode zu importieren.
 * füge sie auf der MakeCode Webseite ein (Strg-V) und klicke auf **Los geht's!**
 
 ### Beschreibung der 'Calliope-i2c-Test-App' und Hardware.
-
-> Update: Im Sep 2023 sind 4 neue i2c-Erweiterungen dazu gekommen: EEPROM, Joystick, Motor, Wattmeter.
-> Die Beschreibung ist vom Stand August.
 
 Im Test funktionierten 7 Module gleichzeitig. Nur das Modul 'Grove - 16x2 LCD' funktionierte nicht mit allen anderen zusammen und wurde deshalb weg gelassen.
 Es kann aber anstatt des großen 20x4 LCD Moduls verwendet werden.
