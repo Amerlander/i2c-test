@@ -1,22 +1,39 @@
 
 Diese Seite bei [https://calliope-net.github.io/i2c-test/](https://calliope-net.github.io/i2c-test/) öffnen.
 
-<!--Dieses Beispiel in MakeCode [https://makecode.calliope.cc/_RFD2qFYJe2Ps](https://makecode.calliope.cc/_RFD2qFYJe2Ps) öffnen.-->
-
-Das Bild zeigt 15 i2c Module, die technisch alle gleichzeitig an den i2c Bus angeschlossen werden können. Mit einem Stecker an Calliope A0.
-Getestet wurde mit 7 Modulen gleichzeitig und es hat funktioniert. Für alle 15 Module können aber hier die Erweiterungen herunter geladen werden,
-die - genau wie die Module - beliebig miteinander kombiniert werden können. Und es ist kein teures Hobby. Über die Bezugsquellen unten 
-kosten viele Module nur um 5 € und das große Display 25 €.
-
-Wenn die Stromversorgung des Calliope über USB Kabel erfolgt, reicht das für die angeschlossenen Module (außer den 4 Relais) aus.
-Die roten Qwiic Module dürfen auch nur mit 3,3V Logik betrieben werden. Im Dauerbetrieb über Tag und Nacht ist noch kein Projekt abgestürzt.
-
-![](DSC09940-1440.jpg)
-
-<!--
 ![](mini-i2c-test.jpg)
+
+### i2c Module an Calliope anstecken
+
+* [Grove - High Precision RTC (Real Time Clock)](https://wiki.seeedstudio.com/Grove_High_Precision_RTC/)
+* [SparkFun 20x4 SerLCD - RGB Backlight (Qwiic)](https://www.sparkfun.com/products/16398)
+* [SparkFun Qwiic OpenLog](https://www.sparkfun.com/products/15164)
+* [SparkFun Qwiic Keypad - 12 Button](https://www.sparkfun.com/products/15290)
+* [SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
+* [Grove - 6-Position DIP Switch](https://wiki.seeedstudio.com/Grove-6-Position_DIP_Switch/)
+* [Grove - 4-Channel SPDT Relay](https://wiki.seeedstudio.com/Grove-4-Channel_SPDT_Relay/)
+
+Kabel und Adapter
+
+* [Grove - I2C Hub(6 Port)](https://wiki.seeedstudio.com/Grove-I2C-Hub-6Port/)
+* [Qwiic Cable - Grove Adapter](https://www.sparkfun.com/products/15109)
+* [Qwiic Cable Kit](https://www.sparkfun.com/products/15081)
+
+Alle i2c Module werden parallel am linken Grove Steckverbinder A0 angeschlossen. Dazu kann ein i2c-Hub benutzt werden.
+i2c Module mit zwei Buchsen (z.B. Qwiic) können hintereinander gesteckt werden.
+
+Für die Stromversorgung sollte Calliope über USB Kabel (an Computer oder Powerbank) angeschlossen sein.
+
+### .hex-Datei direkt auf Calliope laden, oder in MakeCode importieren.
+
+* [mini-i2c-test.hex](mini-i2c-test.hex)
+* [Schnappschuss (Bildschirmfoto mit den Blöcken)](mini-i2c-test.png)
+
+
+Dieses Beispiel in MakeCode [https://makecode.calliope.cc/_RFD2qFYJe2Ps](https://makecode.calliope.cc/_RFD2qFYJe2Ps) öffnen.
+
 ![](mini-i2c-test.png)
--->
+
 
 ### Liste der i2c Module für Calliope:
 
