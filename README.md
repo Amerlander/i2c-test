@@ -102,10 +102,7 @@ Die Erweiterungen sind **nicht** auf Calliope 2.x eingestellt, sollten auch mit 
 
 ### Erweiterungen
 
-Die Erweiterungen **bit** und **i2c** (die mit 3 Buchstaben) enthalten nur zusätzliche Blöcke zur Formatierung von Text und Zahlen, 
-Logik und zur Programmierung beliebiger i2c Module ohne JavaScript.
-Diese Erweiterungen werden von den folgenden Erweiterungen für i2c Hardware-Module **nicht** benötigt. Ausnahmen sind in der Liste angegeben.
-Jede Erweiterung kann von GitHub über **calliope-net/name** allein geladen werden.
+Die Calliope-App 'i2c-test' lädt folgende Erweiterungen:
 
 * [https://github.com/calliope-net/bit](https://calliope-net.github.io/bit/)
 * [https://github.com/calliope-net/i2c](https://calliope-net.github.io/i2c/)
@@ -113,19 +110,12 @@ Jede Erweiterung kann von GitHub über **calliope-net/name** allein geladen werd
 #### Erweiterungen für i2c Hardware-Module
 
 * [https://github.com/calliope-net/rtc-pcf85063tp](https://calliope-net.github.io/rtc-pcf85063tp/)
-* [https://github.com/calliope-net/oled-16x8](https://calliope-net.github.io/oled-16x8/)
-* [https://github.com/calliope-net/oled-eeprom](https://calliope-net.github.io/oled-eeprom/) + [calliope-net/bit](https://calliope-net.github.io/bit/)
-* [https://github.com/calliope-net/lcd-16x2rgb](https://calliope-net.github.io/lcd-16x2rgb/)
 * [https://github.com/calliope-net/lcd-20x4](https://calliope-net.github.io/lcd-20x4/)
-* [https://github.com/calliope-net/eeprom](https://calliope-net.github.io/eeprom/)
 * [https://github.com/calliope-net/log-qwiicopenlog](https://calliope-net.github.io/log-qwiicopenlog/)
 * [https://github.com/calliope-net/key-qwiickeypad](https://calliope-net.github.io/key-qwiickeypad/)
 * [https://github.com/calliope-net/8io-qwiicgpio](https://calliope-net.github.io/8io-qwiicgpio/)
-* [https://github.com/calliope-net/joystick](https://calliope-net.github.io/joystick/)
-* [https://github.com/calliope-net/motor](https://calliope-net.github.io/motor/)
 * [https://github.com/calliope-net/dip-switch](https://calliope-net.github.io/dip-switch/)
 * [https://github.com/calliope-net/spdt-relay](https://calliope-net.github.io/spdt-relay/)
-* [https://github.com/calliope-net/wattmeter](https://calliope-net.github.io/wattmeter/)
 
 ![](blocks.png)
 
