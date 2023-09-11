@@ -2,7 +2,7 @@ input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
     qwiicopenlog.changeIndex(qwiicopenlog.eArray.SearchString, -1)
 })
 pins.onPulsed(DigitalPin.P1, PulseValue.Low, function () {
-    basic.setLedColor(bit.hex(bit.H4.x00, bit.H0.x7))
+    basic.setLedColor(bit.bit_hex8(bit.eHEX8bit.x07))
     rtcpcf85063tp.readDateTime(rtcpcf85063tp.eADDR.RTC_PCF85063TP)
     lcd20x4.writeText(lcd20x4.eADDR.LCD_20x4, 0, 0, 13, lcd20x4.eAlign.left, rtcpcf85063tp.getDate(rtcpcf85063tp.ePart.mit, rtcpcf85063tp.ePart.mit))
     lcd20x4.writeText(lcd20x4.eADDR.LCD_20x4, 1, 0, 2, lcd20x4.eAlign.left, bit.formatNumber(qwiicopenlog.readRegister(qwiicopenlog.eADDR.LOG_Qwiic, qwiicopenlog.eReadRegister.status), bit.eLength.HEX_FF))
@@ -14,7 +14,7 @@ pins.onPulsed(DigitalPin.P1, PulseValue.Low, function () {
     keypadASCII = qwiickeypad.getButton(qwiickeypad.eADDR.KEY_Qwiic)
     if (bit.between(keypadASCII, bit.charCodeAt("0", 0), bit.charCodeAt("9", 0))) {
         qwiicgpio.writeOUTPUT_PORT(qwiicgpio.eADDR.GPIO_Qwiic, keypadASCII - 48)
-        spdtrelay.channelCtrl(spdtrelay.eADDR.Relay, keypadASCII - 48)
+        spdtrelay.channelCtrl(0, keypadASCII - 48)
     }
     if (qwiicopenlog.getInt(qwiicopenlog.eArray.FileName, qwiicopenlog.eInt.Index) < qwiicopenlog.getInt(qwiicopenlog.eArray.FileName, qwiicopenlog.eInt.Array_Length)) {
         lcd20x4.writeText(lcd20x4.eADDR.LCD_20x4, 2, 0, 13, lcd20x4.eAlign.left, qwiicopenlog.getString(qwiicopenlog.eArray.SearchString))
