@@ -6,12 +6,12 @@
         "core": "*",
         "i2c": "github:calliope-net/i2c#v1.1.1",
         "dip-switch": "github:calliope-net/dip-switch#v1.0.2",
-        "rtc-pcf85063tp": "github:calliope-net/rtc-pcf85063tp#v1.0.2",
-        "log-qwiicopenlog": "github:calliope-net/log-qwiicopenlog#v1.0.4",
+        "rtc-pcf85063tp": "github:calliope-net/rtc-uhr#v1.0.2",
+        "log-qwiicopenlog": "github:calliope-net/openlog#v1.0.4",
         "bit": "github:calliope-net/bit#v1.0.4",
         "lcd-20x4": "github:calliope-net/lcd-20x4#v1.0.2",
-        "8io-qwiicgpio": "github:calliope-net/8io-qwiicgpio#v1.0.2",
-        "key-qwiickeypad": "github:calliope-net/key-qwiickeypad#v1.0.2",
+        "8io-qwiicgpio": "github:calliope-net/gpio#v1.0.2",
+        "key-qwiickeypad": "github:calliope-net/keypad#v1.0.2",
         "spdt-relay": "github:calliope-net/spdt-relay#v1.0.0"
     },
     "files": [
