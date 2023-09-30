@@ -2,7 +2,7 @@ input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
     qwiicopenlog.changeIndex(qwiicopenlog.eArray.SearchString, -1)
 })
 pins.onPulsed(DigitalPin.P1, PulseValue.Low, function () {
-    basic.setLedColor(bit.bit_hex8(bit.eHEX8bit.x07))
+    basic.setLedColor(bit.hex8(bit.eHEX8bit.x07))
     rtcpcf85063tp.readDateTime(rtcpcf85063tp.eADDR.RTC_PCF85063TP)
     lcd20x4.writeText(lcd20x4.eADDR.LCD_20x4, 0, 0, 13, lcd20x4.eAlign.left, rtcpcf85063tp.getDate(rtcpcf85063tp.ePart.mit, rtcpcf85063tp.ePart.mit))
     lcd20x4.writeText(lcd20x4.eADDR.LCD_20x4, 1, 0, 2, lcd20x4.eAlign.left, bit.formatNumber(qwiicopenlog.readRegister(qwiicopenlog.eADDR.LOG_Qwiic, qwiicopenlog.eReadRegister.status), bit.eLength.HEX_FF))
