@@ -9,12 +9,12 @@ pins.onPulsed(DigitalPin.P1, PulseValue.Low, function () {
     lcd20x4.writeText(lcd20x4.eADDR.LCD_20x4, 1, 3, 11, lcd20x4.eAlign.left, rtcpcf85063tp.getTime(rtcpcf85063tp.ePart.mit))
     lcd20x4.writeText(lcd20x4.eADDR.LCD_20x4, 1, 12, 15, lcd20x4.eAlign.right, bit.formatNumber(input.rotation(Rotation.Roll), bit.eLength.toString))
     lcd20x4.writeText(lcd20x4.eADDR.LCD_20x4, 1, 16, 19, lcd20x4.eAlign.right, bit.formatNumber(input.rotation(Rotation.Pitch), bit.eLength.toString))
-    dipswitch.readSwitch(dipswitch.eADDR.DIP_SWITCH)
+    dipswitch.readSwitch(dipswitch.dipswitch_eADDR(dipswitch.eADDR.DIP_SWITCH))
     lcd20x4.writeText(lcd20x4.eADDR.LCD_20x4, 0, 14, 19, lcd20x4.eAlign.left, bit.formatNumber(dipswitch.getBIN(), bit.eLength.BIN_111111))
     keypadASCII = qwiickeypad.getButton(qwiickeypad.eADDR.KEY_Qwiic)
     if (bit.between(keypadASCII, bit.charCodeAt("0", 0), bit.charCodeAt("9", 0))) {
-        qwiicgpio.writeOUTPUT_PORT(qwiicgpio.eADDR.GPIO_Qwiic, keypadASCII - 48)
-        spdtrelay.channelCtrl(0, keypadASCII - 48)
+        qwiicgpio.writeOUTPUT_PORT(qwiicgpio.qwiicgpio_eADDR(qwiicgpio.eADDR.GPIO_x27), keypadASCII - 48)
+        spdtrelay.channelCtrl(spdtrelay.spdtrelay_eADDR(spdtrelay.eADDR.Relay), keypadASCII - 48)
     }
     if (qwiicopenlog.getInt(qwiicopenlog.eArray.FileName, qwiicopenlog.eInt.Index) < qwiicopenlog.getInt(qwiicopenlog.eArray.FileName, qwiicopenlog.eInt.Array_Length)) {
         lcd20x4.writeText(lcd20x4.eADDR.LCD_20x4, 2, 0, 13, lcd20x4.eAlign.left, qwiicopenlog.getString(qwiicopenlog.eArray.SearchString))
@@ -37,7 +37,7 @@ let keypadASCII = 0
 lcd20x4.initLCD(lcd20x4.eADDR.LCD_20x4, lcd20x4.eINIT._)
 qwiicopenlog.checkStatusRegister(qwiicopenlog.eADDR.LOG_Qwiic)
 qwiicgpio.setMode(
-qwiicgpio.eADDR.GPIO_Qwiic,
+qwiicgpio.qwiicgpio_eADDR(qwiicgpio.eADDR.GPIO_x27),
 qwiicgpio.eIO.OUT,
 qwiicgpio.eIO.OUT,
 qwiicgpio.eIO.OUT,
