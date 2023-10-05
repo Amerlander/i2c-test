@@ -38,13 +38,13 @@ lcd20x4.initLCD(lcd20x4.lcd20x4_eADDR(lcd20x4.eADDR.LCD_20x4))
 qwiicopenlog.checkStatusRegister(qwiicopenlog.qwiicopenlog_eADDR(qwiicopenlog.eADDR.LOG_x2A))
 qwiicgpio.setMode(
 qwiicgpio.qwiicgpio_eADDR(qwiicgpio.eADDR.GPIO_x27),
-qwiicgpio.eIO.IN,
-qwiicgpio.eIO.IN,
-qwiicgpio.eIO.IN,
-qwiicgpio.eIO.IN,
-qwiicgpio.eIO.IN,
-qwiicgpio.eIO.IN,
-qwiicgpio.eIO.IN,
-qwiicgpio.eIO.IN
+qwiicgpio.eIO.OUT,
+qwiicgpio.eIO.OUT,
+qwiicgpio.eIO.OUT,
+qwiicgpio.eIO.OUT,
+qwiicgpio.eIO.OUT,
+qwiicgpio.eIO.OUT,
+qwiicgpio.eIO.OUT,
+qwiicgpio.eIO.OUT
 )
 qwiicopenlog.listDirectory(qwiicopenlog.qwiicopenlog_eADDR(qwiicopenlog.eADDR.LOG_x2A), qwiicopenlog.getString(qwiicopenlog.eArray.SearchString), 8)
