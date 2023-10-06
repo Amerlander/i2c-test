@@ -108,11 +108,11 @@ Die Calliope-App 'i2c-test' lädt folgende Erweiterungen:
 
 #### Erweiterungen für i2c Hardware-Module
 
-* [https://github.com/calliope-net/rtc-pcf85063tp](https://calliope-net.github.io/rtc-pcf85063tp/)
+* [https://github.com/calliope-net/rtc-uhr](https://calliope-net.github.io/rtc-uhr/)
 * [https://github.com/calliope-net/lcd-20x4](https://calliope-net.github.io/lcd-20x4/)
-* [https://github.com/calliope-net/log-qwiicopenlog](https://calliope-net.github.io/log-qwiicopenlog/)
-* [https://github.com/calliope-net/key-qwiickeypad](https://calliope-net.github.io/key-qwiickeypad/)
-* [https://github.com/calliope-net/8io-qwiicgpio](https://calliope-net.github.io/8io-qwiicgpio/)
+* [https://github.com/calliope-net/openlog](https://calliope-net.github.io/openlog/)
+* [https://github.com/calliope-net/keypad](https://calliope-net.github.io/keypad/)
+* [https://github.com/calliope-net/gpio](https://calliope-net.github.io/gpio/)
 * [https://github.com/calliope-net/dip-switch](https://calliope-net.github.io/dip-switch/)
 * [https://github.com/calliope-net/spdt-relay](https://calliope-net.github.io/spdt-relay/)
 
