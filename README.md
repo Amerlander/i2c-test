@@ -106,7 +106,7 @@ Die Calliope-App 'i2c-test' lädt folgende Erweiterungen:
 Erweiterung für MakeCode|Blöcke zur Programmierung der Module
 ---|---
 [calliope-net/bit](https://calliope-net.github.io/bit/) | Blöcke für HEX-Zahlen, bitweise Logik
-[calliope-net/i2c](https://calliope-net.github.io/i2c/) | Verwendung von *Buffer* mit Blöcken, i2cWriteBuffer, i2cReadBuffer
+[calliope-net/i2c](https://calliope-net.github.io/i2c/) | Blöcke für *Buffer*, i2c Programmierung
 [calliope-net/rtc-uhr](https://calliope-net.github.io/rtc-uhr/) | Quarz-Uhr mit Knopfzelle
 [calliope-net/lcd-20x4](https://calliope-net.github.io/lcd-20x4/) | LCD-Display 20 Zeichen x 4 Zeilen
 [calliope-net/openlog](https://calliope-net.github.io/openlog/) | Speicherkarte lesen/schreiben
