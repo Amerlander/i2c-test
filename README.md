@@ -113,17 +113,7 @@ Erweiterung für MakeCode|Blöcke zur Programmierung der Module
 [calliope-net/keypad](https://calliope-net.github.io/keypad/) | Keypad Tasten: 0123456789*#
 [calliope-net/gpio](https://calliope-net.github.io/gpio/) | 8 digitale Ein- oder Ausgänge (Input/Output)
 [calliope-net/dip-switch](https://calliope-net.github.io/dip-switch/) | 6 DIP-Schalter oder '5-Way_Switch'
-[calliope-net/spdt-relay](https://calliope-net.github.io/spdt-relay/) | 4 Relais (1-polige Umschalter) + zusätzliche Spannung 5V
-
-#### Erweiterungen für i2c Hardware-Module
-
-* [https://github.com/calliope-net/rtc-uhr](https://calliope-net.github.io/rtc-uhr/)
-* [https://github.com/calliope-net/lcd-20x4](https://calliope-net.github.io/lcd-20x4/)
-* [https://github.com/calliope-net/openlog](https://calliope-net.github.io/openlog/)
-* [https://github.com/calliope-net/keypad](https://calliope-net.github.io/keypad/)
-* [https://github.com/calliope-net/gpio](https://calliope-net.github.io/gpio/)
-* [https://github.com/calliope-net/dip-switch](https://calliope-net.github.io/dip-switch/)
-* [https://github.com/calliope-net/spdt-relay](https://calliope-net.github.io/spdt-relay/)
+[calliope-net/spdt-relay](https://calliope-net.github.io/spdt-relay/) | 4 Relais (1-polige Umschalter) + externe Spannung 5V
 
 ![](blocks.png)
 
