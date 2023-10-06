@@ -103,14 +103,14 @@ Die Erweiterungen sind **nicht** auf Calliope 2.x eingestellt, sollten auch mit 
 
 Die Calliope-App 'i2c-test' lädt folgende Erweiterungen:
 
-Erweiterung für MakeCode|Blöcke zur Programmierung der Module
+Erweiterung für MakeCode|Blöcke zur Programmierung der i2c-Module
 ---|---
 [calliope-net/bit](https://calliope-net.github.io/bit/) | Blöcke für HEX-Zahlen, bitweise Logik
 [calliope-net/i2c](https://calliope-net.github.io/i2c/) | Blöcke für *Buffer*, i2c Programmierung
 [calliope-net/rtc-uhr](https://calliope-net.github.io/rtc-uhr/) | Quarz-Uhr mit Knopfzelle
 [calliope-net/lcd-20x4](https://calliope-net.github.io/lcd-20x4/) | LCD-Display 20 Zeichen x 4 Zeilen
-[calliope-net/openlog](https://calliope-net.github.io/openlog/) | Speicherkarte lesen/schreiben
-[calliope-net/keypad](https://calliope-net.github.io/keypad/) | Keypad Tasten: 0123456789*#
+[calliope-net/openlog](https://calliope-net.github.io/openlog/) | Dateien auf Speicherkarte lesen/schreiben/löschen
+[calliope-net/keypad](https://calliope-net.github.io/keypad/) | Keypad 12 Tasten: 0123456789*#
 [calliope-net/gpio](https://calliope-net.github.io/gpio/) | 8 digitale Ein- oder Ausgänge (Input/Output)
 [calliope-net/dip-switch](https://calliope-net.github.io/dip-switch/) | 6 DIP-Schalter oder '5-Way_Switch'
 [calliope-net/spdt-relay](https://calliope-net.github.io/spdt-relay/) | 4 Relais (1-polige Umschalter) + externe Spannung 5V
