@@ -8,7 +8,7 @@
         "i2c": "github:calliope-net/i2c#v1.1.1",
         "rtc-uhr": "github:calliope-net/rtc-uhr#v2.0.3",
         "lcd-20x4": "github:calliope-net/lcd-20x4#v2.0.1",
-        "openlog": "github:calliope-net/openlog#v1.1.1",
+        "openlog": "github:calliope-net/openlog#v2.0.0",
         "keypad": "github:calliope-net/keypad#v1.1.2",
         "gpio": "github:calliope-net/gpio#v1.2.1",
         "dip-switch": "github:calliope-net/dip-switch#v1.1.1",
@@ -31,5 +31,5 @@
         "calliopemini",
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
