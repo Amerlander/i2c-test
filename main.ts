@@ -11,7 +11,7 @@ pins.onPulsed(DigitalPin.P1, PulseValue.Low, function () {
     lcd20x4.writeText(lcd20x4.lcd20x4_eADDR(lcd20x4.eADDR.LCD_20x4), 1, 16, 19, input.rotation(Rotation.Pitch), lcd20x4.eAlign.right)
     dipswitch.readSwitch(dipswitch.dipswitch_eADDR(dipswitch.eADDR.DIP_SWITCH_x03))
     lcd20x4.writeText(lcd20x4.lcd20x4_eADDR(lcd20x4.eADDR.LCD_20x4), 0, 14, 19, lcd20x4.lcd20x4_text(bit.formatNumber(dipswitch.getBIN(), bit.eLength.BIN_111111)))
-    keypadASCII = qwiickeypad.getButton(qwiickeypad.qwiickeypad_eADDR(qwiickeypad.eADDR.Keypad_x4B))
+    keypadASCII = qwiickeypad.getButton(qwiickeypad.qwiickeypad_eADDR(qwiickeypad.eADDR.KEY_x4B))
     if (bit.between(keypadASCII, bit.charCodeAt("0", 0), bit.charCodeAt("9", 0))) {
         qwiicgpio.writeOUTPUT_PORT(qwiicgpio.qwiicgpio_eADDR(qwiicgpio.eADDR.GPIO_x27), qwiicgpio.siebenSegment(keypadASCII - 48, false))
         spdtrelay.channelCtrl(spdtrelay.spdtrelay_eADDR(spdtrelay.eADDR.Rel_x11), keypadASCII - 48)
