@@ -34,6 +34,7 @@ input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
     qwiicopenlog.changeIndex(qwiicopenlog.eArray.SearchString, 1)
 })
 let keypadASCII = 0
+rtcpcf85063tp.beimStart(rtcpcf85063tp.rtcpcf85063tp_eADDR(rtcpcf85063tp.eADDR.RTC_x51), true)
 lcd20x4.initLCD(lcd20x4.lcd20x4_eADDR(lcd20x4.eADDR.LCD_20x4))
 qwiicopenlog.checkStatusRegister(qwiicopenlog.qwiicopenlog_eADDR(qwiicopenlog.eADDR.LOG_x2A))
 qwiicgpio.setMode(
