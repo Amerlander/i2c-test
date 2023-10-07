@@ -14,7 +14,7 @@ pins.onPulsed(DigitalPin.P1, PulseValue.Low, function () {
     keypadASCII = qwiickeypad.getButton(qwiickeypad.qwiickeypad_eADDR(qwiickeypad.eADDR.Keypad_x4B))
     if (bit.between(keypadASCII, bit.charCodeAt("0", 0), bit.charCodeAt("9", 0))) {
         qwiicgpio.writeOUTPUT_PORT(qwiicgpio.qwiicgpio_eADDR(qwiicgpio.eADDR.GPIO_x27), qwiicgpio.siebenSegment(keypadASCII - 48, false))
-        spdtrelay.channelCtrl(spdtrelay.spdtrelay_eADDR(spdtrelay.eADDR.Relay_x11), keypadASCII - 48)
+        spdtrelay.channelCtrl(spdtrelay.spdtrelay_eADDR(spdtrelay.eADDR.Rel_x11), keypadASCII - 48)
     }
     if (qwiicopenlog.getInt(qwiicopenlog.eArray.FileName, qwiicopenlog.eInt.Index) < qwiicopenlog.getInt(qwiicopenlog.eArray.FileName, qwiicopenlog.eInt.Array_Length)) {
         lcd20x4.writeText(lcd20x4.lcd20x4_eADDR(lcd20x4.eADDR.LCD_20x4), 2, 0, 13, lcd20x4.lcd20x4_text(qwiicopenlog.getString(qwiicopenlog.eArray.SearchString)))
