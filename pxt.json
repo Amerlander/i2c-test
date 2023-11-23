@@ -4,6 +4,7 @@
     "description": "",
     "dependencies": {
         "core": "*",
+        "v3": "*",
         "bit": "github:calliope-net/bit#v1.1.0",
         "i2c": "github:calliope-net/i2c#v2.1.0",
         "rtc-uhr": "github:calliope-net/rtc-uhr#v2.1.1",
@@ -31,5 +32,15 @@
         "calliopemini",
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "partial_flashing": 0,
+                    "enabled": 0
+                }
+            }
+        }
+    }
 }
