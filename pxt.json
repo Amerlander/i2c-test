@@ -4,7 +4,7 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "v3": "*",
+        "v2": "*",
         "bit": "github:calliope-net/bit#v1.1.0",
         "i2c": "github:calliope-net/i2c#v2.1.0",
         "rtc-uhr": "github:calliope-net/rtc-uhr#v2.1.1",
